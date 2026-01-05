@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Disease Prediction – HealthAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@500;600;700&
+    family=PT+Sans:wght@400;700&
+    family=Smooch+Sans:wght@400;600;700&
+    family=Tagesschrift&
+    display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">HealthAI</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/" data-path="/">Home</a></li>
+      <li><a href="/home" data-path="/home">Dashboard</a></li>
+      <li><a href="/features" data-path="/features">Features</a></li>
+      <li><a href="/predict" data-path="/predict" class="active">Predict</a></li>
+      <li><a href="/contact" data-path="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="container page" style="padding-top:120px">
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb">
+    <a href="/home">Home</a>
+    <span>›</span>
+    <span class="current">Predict</span>
+  </nav>
+
+  <h2>Disease Prediction</h2>
+
+  <p class="model-intro">
+    Enter basic patient details and symptoms to receive an AI-based
+    disease prediction for educational awareness.
+  </p>
+
+  <form class="card" onsubmit="submitPrediction(event)">
+
+    <div class="grid">
+      <div>
+        <label>Age</label>
+        <input
+  type="number"
+  id="ageInput"
+  min="0"
+  placeholder="e.g. 25"
+  autocomplete="off"
+  required
+/>
+<div id="ageHistory" class="suggestions-box"></div>
+
+      </div>
+
+      <div>
+        <label>Gender</label>
+        <select id="gender">
+          <option value="">Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Symptoms -->
+    <div style="margin-top:20px; position:relative;">
+      <label>Symptoms</label>
+
+      <input
+        type="text"
+        id="symptomInput"
+        placeholder="Start typing symptoms..."
+        autocomplete="off"
+      />
+
+      <div id="suggestions" class="suggestions-box"></div>
+
+      <textarea
+        id="symptoms"
+        rows="4"
+        placeholder="Selected symptoms will appear here"
+        readonly
+      ></textarea>
+    </div>
+
+    <button style="margin-top:30px">
+      🔍 Predict Disease
+    </button>
+
+  </form>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div>© 2026 HealthAI</div>
+  <div>
+    <a href="/disclaimer">Medical Disclaimer</a>
+  </div>
+</footer>
+
+<!-- PAGE LOGIC -->
+<script>
+async function submitPrediction(event) {
+  event.preventDefault();
+
+  const symptoms = document.getElementById("symptoms").value.trim();
+  const age = document.getElementById("ageInput").value;
+  const gender = document.getElementById("gender").value;
+
+  if (!symptoms) {
+    alert("Please enter symptoms");
+    return;
+  }
+
+  // 💾 Store for result + explainability
+  localStorage.setItem("lastSymptoms", symptoms);
+  // Store symptom history
+let history = JSON.parse(localStorage.getItem("symptomHistory")) || [];
+symptoms.split(",").forEach(s => {
+  s = s.trim().toLowerCase();
+  if (s && !history.includes(s)) history.push(s);
+});
+localStorage.setItem("symptomHistory", history);
+
+// Store age history
+let ages = JSON.parse(localStorage.getItem("ageHistory")) || [];
+if (age && !ages.includes(age)) ages.push(age);
+localStorage.setItem("ageHistory", ages);
+
+
+  const res = await fetch("/api/predict", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ symptoms, age, gender })
+  });
+
+  const data = await res.json();
+  localStorage.setItem("lastResult", JSON.stringify(data));
+
+  window.location.href = "/result";
+}
+
+/* ⌨️ Keyboard shortcuts */
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") window.location.href = "/features";
+  if (e.key === "ArrowRight") window.location.href = "/result";
+});
+</script>
+
+</body>
+</html>

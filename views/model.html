@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Model & Evaluation – HealthAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@500;600;700&
+    family=PT+Sans:wght@400;700&
+    family=Smooch+Sans:wght@400;600;700&
+    family=Tagesschrift&
+    display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">HealthAI</div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/home">Dashboard</a></li>
+      <li><a href="/features">Features</a></li>
+      <li><a href="/predict">Predict</a></li>
+      <li><a href="/model-info" class="active">Model</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ================= MAIN ================= -->
+<main class="container page" style="padding-top:120px">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb">
+    <a href="/home">Home</a>
+    <span>›</span>
+    <a href="/features">Features</a>
+    <span>›</span>
+    <span class="current">Model</span>
+  </nav>
+
+  <h2>Model Architecture & Evaluation</h2>
+
+  <p class="model-intro">
+    This page provides an overview of the machine learning model used in HealthAI,
+    including training methodology, evaluation strategy, and known limitations.
+  </p>
+
+  <div class="grid">
+
+    <!-- Model Overview -->
+    <div class="card">
+      <h3>🧠 Model Overview</h3>
+      <p>
+        HealthAI uses a <strong>Random Forest Classifier</strong>, an ensemble
+        learning algorithm that combines multiple decision trees to improve
+        prediction accuracy and robustness.
+      </p>
+      <p>
+        Random Forest was chosen for its ability to handle non-linear feature
+        interactions and provide built-in feature importance for explainability.
+      </p>
+    </div>
+
+    <!-- Training Details -->
+    <div class="card">
+      <h3>⚙️ Training Process</h3>
+      <ul class="model-list">
+        <li>Structured symptom-based medical dataset</li>
+        <li>Binary encoding of symptoms</li>
+        <li>Rare disease classes filtered to reduce noise</li>
+        <li>Train-test split used for validation</li>
+      </ul>
+    </div>
+
+    <!-- Evaluation -->
+    <div class="card">
+      <h3>📊 Model Evaluation</h3>
+      <ul class="model-list">
+        <li>Evaluation on held-out test data</li>
+        <li>Probability-based predictions (not hard labels)</li>
+        <li>Top-3 disease confidence comparison</li>
+        <li>Low-confidence predictions flagged</li>
+      </ul>
+    </div>
+
+    <!-- Limitations -->
+    <div class="card">
+      <h3>⚠️ Limitations</h3>
+      <ul class="model-list">
+        <li>Dependent on accuracy of user-provided symptoms</li>
+        <li>Not trained on real-time clinical records</li>
+        <li>Not suitable for diagnosis or treatment decisions</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Responsible AI -->
+  <div class="card model-note">
+    <h3>🛡️ Responsible AI Statement</h3>
+    <p>
+      HealthAI is built for educational purposes only. The system prioritizes
+      transparency, communicates uncertainty clearly, and avoids overconfident
+      medical claims.
+    </p>
+  </div>
+
+  <!-- Back -->
+  <div class="result-actions" style="margin-top:30px">
+    <a href="/features">
+      <button class="secondary-btn">Back to Features</button>
+    </a>
+  </div>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div>© 2026 HealthAI</div>
+  <div><a href="/disclaimer">Medical Disclaimer</a></div>
+</footer>
+
+<script>
+/* ⌨️ Keyboard shortcut */
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") window.location.href = "/features";
+});
+</script>
+
+</body>
+</html>

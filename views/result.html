@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prediction Result – HealthAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@500;600;700&
+    family=PT+Sans:wght@400;700&
+    family=Smooch+Sans:wght@400;600;700&
+    family=Tagesschrift&
+    display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">HealthAI</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/" data-path="/">Home</a></li>
+      <li><a href="/home" data-path="/home">Dashboard</a></li>
+      <li><a href="/features" data-path="/features">Features</a></li>
+      <li><a href="/predict" data-path="/predict">Predict</a></li>
+      <li><a href="/contact" data-path="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="container page" style="padding-top:120px">
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb">
+    <a href="/home">Home</a>
+    <span>›</span>
+    <a href="/predict">Predict</a>
+    <span>›</span>
+    <span class="current">Result</span>
+  </nav>
+
+  <section class="card result-card">
+
+    <h2>Diagnosis Result</h2>
+
+    <p class="result-subtext">
+      Based on the symptoms you provided, HealthAI predicts the following
+      condition for educational awareness.
+    </p>
+
+    <!-- Disease -->
+    <div class="result-item">
+      <span class="label">Predicted Disease</span>
+      <h3 id="diseaseName">—</h3>
+    </div>
+
+    <!-- Confidence -->
+    <div class="result-item">
+      <span class="label">Prediction Confidence</span>
+      <div class="confidence-bar">
+        <div class="confidence-fill" id="confidenceFill"></div>
+      </div>
+      <p class="confidence-text">
+        <span id="confidenceValue">0</span>% confidence
+      </p>
+    </div>
+
+    <!-- Top predictions -->
+    <div class="probability-section">
+      <h3>Possible Conditions</h3>
+      <div id="probabilityBars"></div>
+    </div>
+
+    <!-- Actions -->
+    <div class="result-actions">
+      <a href="/explainability">
+        <button class="secondary-btn">Why this result?</button>
+      </a>
+      <a href="/guidance">
+        <button>Precautions & Medicines</button>
+      </a>
+    </div>
+
+    <!-- Disclaimer -->
+    <p class="result-disclaimer">
+      ⚠️ This result is generated for educational purposes only and should not
+      be used as a medical diagnosis.
+    </p>
+
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div>© 2026 HealthAI</div>
+  <div>
+    <a href="/disclaimer">Medical Disclaimer</a>
+  </div>
+</footer>
+
+<script>
+/* 📦 Load stored result */
+const result = JSON.parse(localStorage.getItem("lastResult"));
+
+if (!result) {
+  document.getElementById("diseaseName").innerText = "No result found";
+} else {
+  document.getElementById("diseaseName").innerText = result.disease;
+  document.getElementById("confidenceValue").innerText = result.confidence;
+  document.getElementById("confidenceFill").style.width =
+    result.confidence + "%";
+
+  /* 📊 Probability bars */
+  const container = document.getElementById("probabilityBars");
+
+  if (result.top_predictions) {
+    result.top_predictions.forEach(p => {
+      const row = document.createElement("div");
+      row.className = "probability-row";
+      row.innerHTML = `
+        <span>${p.disease}</span>
+        <div class="confidence-bar small">
+          <div class="confidence-fill" style="width:${p.confidence}%"></div>
+        </div>
+        <span>${p.confidence}%</span>
+      `;
+      container.appendChild(row);
+    });
+  }
+}
+
+/* ⌨️ Keyboard shortcuts */
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") window.location.href = "/predict";
+  if (e.key === "ArrowRight") window.location.href = "/explainability";
+});
+</script>
+
+</body>
+</html>

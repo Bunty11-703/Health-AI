@@ -1,0 +1,3072 @@
+[
+  {
+    "Disease": "Common cold",
+    "Symptoms": [
+      "Runny nose",
+      "Sneezing",
+      "Cough",
+      "Sore throat",
+      "Low-grade fever"
+    ],
+    "Precautions": [
+      "Hand hygiene",
+      "Avoid close contact",
+      "Hydration",
+      "Rest"
+    ],
+    "Causes": "Rhinoviruses and other respiratory viruses",
+    "Medicine": [
+      "Paracetamol",
+      "Antihistamines",
+      "Decongestants"
+    ]
+  },
+  {
+    "Disease": "Influenza",
+    "Symptoms": [
+      "High fever",
+      "Chills",
+      "Myalgia",
+      "Cough",
+      "Sore throat"
+    ],
+    "Precautions": [
+      "Annual vaccination",
+      "Hand hygiene",
+      "Mask in outbreaks"
+    ],
+    "Causes": "Influenza A/B viruses",
+    "Medicine": [
+      "Oseltamivir",
+      "Paracetamol"
+    ]
+  },
+  {
+    "Disease": "COVID-19",
+    "Symptoms": [
+      "Fever",
+      "Cough",
+      "Loss of taste or smell",
+      "Shortness of breath",
+      "Fatigue"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Masking",
+      "Ventilation",
+      "Hand hygiene"
+    ],
+    "Causes": "SARS-CoV-2",
+    "Medicine": [
+      "Nirmatrelvir-ritonavir",
+      "Paracetamol"
+    ]
+  },
+  {
+    "Disease": "Pneumonia",
+    "Symptoms": [
+      "Fever",
+      "Cough",
+      "Purulent sputum",
+      "Chest pain",
+      "Shortness of breath"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Vaccination",
+      "Hand hygiene"
+    ],
+    "Causes": "Bacteria,Viruses,Fungi aspiration",
+    "Medicine": [
+      "Amoxicillin-clavulanate",
+      "Azithromycin"
+    ]
+  },
+  {
+    "Disease": "Acute bronchitis",
+    "Symptoms": [
+      "Cough",
+      "Sputum",
+      "Chest discomfort",
+      "Wheezing",
+      "Low fever"
+    ],
+    "Precautions": [
+      "Avoid smoke",
+      "Hydration",
+      "Rest"
+    ],
+    "Causes": "Viral infection,Environmental irritants",
+    "Medicine": [
+      "Bronchodilators",
+      "Antitussives"
+    ]
+  },
+  {
+    "Disease": "Asthma",
+    "Symptoms": [
+      "Wheezing",
+      "Shortness of breath",
+      "Chest tightness",
+      "Cough"
+    ],
+    "Precautions": [
+      "Trigger avoidance",
+      "Inhaler technique",
+      "Allergen control"
+    ],
+    "Causes": "Airway hyperreactivity to allergens/irritants",
+    "Medicine": [
+      "Salbutamol inhaler",
+      "Inhaled corticosteroids"
+    ]
+  },
+  {
+    "Disease": "COPD",
+    "Symptoms": [
+      "Chronic cough",
+      "Sputum",
+      "Exertional dyspnea",
+      "Wheezing"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Vaccination",
+      "Pulmonary rehab"
+    ],
+    "Causes": "Long-term smoking,Air pollution",
+    "Medicine": [
+      "Tiotropium",
+      "Formoterol"
+    ]
+  },
+  {
+    "Disease": "Tuberculosis",
+    "Symptoms": [
+      "Chronic cough",
+      "Hemoptysis",
+      "Night sweats",
+      "Weight loss",
+      "Fever"
+    ],
+    "Precautions": [
+      "BCG vaccination",
+      "Ventilation",
+      "Masking",
+      "Screening"
+    ],
+    "Causes": "Mycobacterium tuberculosis",
+    "Medicine": [
+      "Isoniazid",
+      "Rifampicin"
+    ]
+  },
+  {
+    "Disease": "Pertussis",
+    "Symptoms": [
+      "Paroxysmal cough",
+      "Inspiratory whoop",
+      "Post-tussive vomiting"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Isolation during infectious period"
+    ],
+    "Causes": "Bordetella pertussis",
+    "Medicine": [
+      "Azithromycin",
+      "Clarithromycin"
+    ]
+  },
+  {
+    "Disease": "Diphtheria",
+    "Symptoms": [
+      "Sore throat",
+      "Pseudomembrane",
+      "Fever",
+      "Neck swelling"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Isolation"
+    ],
+    "Causes": "Corynebacterium diphtheriae",
+    "Medicine": [
+      "Antitoxin",
+      "Penicillin"
+    ]
+  },
+  {
+    "Disease": "Measles",
+    "Symptoms": [
+      "High fever",
+      "Cough",
+      "Conjunctivitis",
+      "Koplik spots",
+      "Maculopapular rash"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Isolation"
+    ],
+    "Causes": "Measles virus",
+    "Medicine": [
+      "Vitamin A",
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Mumps",
+    "Symptoms": [
+      "Parotid swelling",
+      "Fever",
+      "Myalgia"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Avoid contact"
+    ],
+    "Causes": "Mumps virus",
+    "Medicine": [
+      "Supportive care",
+      "Analgesics"
+    ]
+  },
+  {
+    "Disease": "Rubella",
+    "Symptoms": [
+      "Low fever",
+      "Rash",
+      "Lymphadenopathy"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Avoid exposure in pregnancy"
+    ],
+    "Causes": "Rubella virus",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Varicella (chickenpox)",
+    "Symptoms": [
+      "Fever",
+      "Itchy vesicular rash",
+      "Malaise"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Isolation"
+    ],
+    "Causes": "Varicella-zoster virus",
+    "Medicine": [
+      "Acyclovir",
+      "Calamine lotion"
+    ]
+  },
+  {
+    "Disease": "Herpes zoster (shingles)",
+    "Symptoms": [
+      "Dermatomal pain",
+      "Vesicular rash",
+      "Allodynia"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Prompt antiviral therapy"
+    ],
+    "Causes": "Reactivation of VZV",
+    "Medicine": [
+      "Acyclovir",
+      "Valacyclovir"
+    ]
+  },
+  {
+    "Disease": "Hand",
+    "Symptoms": [
+      "foot and mouth disease"
+    ],
+    "Precautions": [
+      "Fever",
+      "Oral ulcers",
+      "Vesicles on hands/feet"
+    ],
+    "Causes": "Hand hygiene,Avoid contact",
+    "Medicine": [
+      "Coxsackievirus/Enterovirus"
+    ]
+  },
+  {
+    "Disease": "Scarlet fever",
+    "Symptoms": [
+      "Fever",
+      "Sore throat",
+      "Sandpaper rash",
+      "Strawberry tongue"
+    ],
+    "Precautions": [
+      "Hygiene",
+      "Isolation"
+    ],
+    "Causes": "Streptococcus pyogenes",
+    "Medicine": [
+      "Penicillin",
+      "Amoxicillin"
+    ]
+  },
+  {
+    "Disease": "Strep throat",
+    "Symptoms": [
+      "Sore throat",
+      "Fever",
+      "Tonsillar exudates"
+    ],
+    "Precautions": [
+      "Hygiene",
+      "Avoid contact"
+    ],
+    "Causes": "Group A Streptococcus",
+    "Medicine": [
+      "Penicillin",
+      "Amoxicillin"
+    ]
+  },
+  {
+    "Disease": "Sinusitis",
+    "Symptoms": [
+      "Facial pain",
+      "Nasal congestion",
+      "Purulent discharge"
+    ],
+    "Precautions": [
+      "Nasal irrigation",
+      "Allergen control"
+    ],
+    "Causes": "Viral>Bacterial",
+    "Medicine": [
+      "Amoxicillin-clavulanate",
+      "Intranasal steroids"
+    ]
+  },
+  {
+    "Disease": "Otitis media",
+    "Symptoms": [
+      "Ear pain",
+      "Fever",
+      "Hearing difficulty"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Avoid smoke"
+    ],
+    "Causes": "Viral/Bacterial",
+    "Medicine": [
+      "Amoxicillin",
+      "Analgesics"
+    ]
+  },
+  {
+    "Disease": "Otitis externa",
+    "Symptoms": [
+      "Ear pain",
+      "Pruritus",
+      "Discharge"
+    ],
+    "Precautions": [
+      "Keep ear dry",
+      "Avoid trauma"
+    ],
+    "Causes": "Bacterial (Pseudomonas),Fungal",
+    "Medicine": [
+      "Ciprofloxacin ear drops",
+      "Acetic acid drops"
+    ]
+  },
+  {
+    "Disease": "Conjunctivitis",
+    "Symptoms": [
+      "Red eye",
+      "Discharge",
+      "Itching"
+    ],
+    "Precautions": [
+      "Hand hygiene",
+      "Avoid touching eyes"
+    ],
+    "Causes": "Viral,Bacterial,Allergic",
+    "Medicine": [
+      "Lubricants",
+      "Antibiotic drops"
+    ]
+  },
+  {
+    "Disease": "Keratitis",
+    "Symptoms": [
+      "Eye pain",
+      "Photophobia",
+      "Vision changes"
+    ],
+    "Precautions": [
+      "Contact lens hygiene",
+      "Eye protection"
+    ],
+    "Causes": "Bacterial,Viral,Fungal",
+    "Medicine": [
+      "Fluoroquinolone drops",
+      "Acyclovir"
+    ]
+  },
+  {
+    "Disease": "Uveitis",
+    "Symptoms": [
+      "Eye pain",
+      "Blurred vision",
+      "Photophobia"
+    ],
+    "Precautions": [
+      "Regular screening in autoimmune disease"
+    ],
+    "Causes": "Autoimmune,Infectious",
+    "Medicine": [
+      "Topical steroids",
+      "Cycloplegics"
+    ]
+  },
+  {
+    "Disease": "Gastroenteritis",
+    "Symptoms": [
+      "Diarrhea",
+      "Vomiting",
+      "Abdominal cramps",
+      "Fever"
+    ],
+    "Precautions": [
+      "Safe food/water",
+      "Hand hygiene"
+    ],
+    "Causes": "Viruses (Norovirus,Rotavirus),Bacteria",
+    "Medicine": [
+      "ORS",
+      "Antiemetics"
+    ]
+  },
+  {
+    "Disease": "Typhoid fever",
+    "Symptoms": [
+      "Prolonged fever",
+      "Abdominal pain",
+      "Rose spots",
+      "Constipation/diarrhea"
+    ],
+    "Precautions": [
+      "Safe food/water",
+      "Vaccination"
+    ],
+    "Causes": "Salmonella Typhi",
+    "Medicine": [
+      "Ceftriaxone",
+      "Azithromycin"
+    ]
+  },
+  {
+    "Disease": "Cholera",
+    "Symptoms": [
+      "Profuse watery diarrhea",
+      "Vomiting",
+      "Leg cramps"
+    ],
+    "Precautions": [
+      "Safe water",
+      "Sanitation"
+    ],
+    "Causes": "Vibrio cholerae",
+    "Medicine": [
+      "ORS",
+      "IV fluids",
+      "Doxycycline"
+    ]
+  },
+  {
+    "Disease": "Traveler’s diarrhea",
+    "Symptoms": [
+      "Diarrhea",
+      "Abdominal cramps",
+      "Nausea"
+    ],
+    "Precautions": [
+      "Food/water precautions"
+    ],
+    "Causes": "Enterotoxigenic E. coli",
+    "Medicine": [
+      "Loperamide",
+      "Azithromycin"
+    ]
+  },
+  {
+    "Disease": "Peptic ulcer disease",
+    "Symptoms": [
+      "Epigastric pain",
+      "Nausea",
+      "Bloating"
+    ],
+    "Precautions": [
+      "Avoid NSAIDs",
+      "Limit alcohol",
+      "H. pylori eradication"
+    ],
+    "Causes": "H. pylori,NSAIDs",
+    "Medicine": [
+      "PPI",
+      "Amoxicillin+Clarithromycin"
+    ]
+  },
+  {
+    "Disease": "Gastroesophageal reflux disease",
+    "Symptoms": [
+      "Heartburn",
+      "Regurgitation",
+      "Dysphagia"
+    ],
+    "Precautions": [
+      "Weight loss",
+      "Head-of-bed elevation",
+      "Diet changes"
+    ],
+    "Causes": "LES dysfunction",
+    "Medicine": [
+      "PPI",
+      "H2 blockers"
+    ]
+  },
+  {
+    "Disease": "Irritable bowel syndrome",
+    "Symptoms": [
+      "Abdominal pain",
+      "Bloating",
+      "Altered bowel habits"
+    ],
+    "Precautions": [
+      "Dietary fiber",
+      "Low FODMAP",
+      "Stress management"
+    ],
+    "Causes": "Functional gut disorder",
+    "Medicine": [
+      "Antispasmodics",
+      "Fiber"
+    ]
+  },
+  {
+    "Disease": "Inflammatory bowel disease (Crohn’s)",
+    "Symptoms": [
+      "Abdominal pain",
+      "Diarrhea",
+      "Weight loss"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Nutrition"
+    ],
+    "Causes": "Autoimmune inflammation",
+    "Medicine": [
+      "Mesalamine",
+      "Azathioprine"
+    ]
+  },
+  {
+    "Disease": "Ulcerative colitis",
+    "Symptoms": [
+      "Bloody diarrhea",
+      "Urgency",
+      "Abdominal pain"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Colon cancer screening"
+    ],
+    "Causes": "Autoimmune colonic inflammation",
+    "Medicine": [
+      "Mesalamine",
+      "Infliximab"
+    ]
+  },
+  {
+    "Disease": "Celiac disease",
+    "Symptoms": [
+      "Chronic diarrhea",
+      "Weight loss",
+      "Anemia",
+      "Dermatitis herpetiformis"
+    ],
+    "Precautions": [
+      "Strict gluten-free diet"
+    ],
+    "Causes": "Autoimmune to gluten",
+    "Medicine": [
+      "Dapsone (for rash)",
+      "Supplementation"
+    ]
+  },
+  {
+    "Disease": "Appendicitis",
+    "Symptoms": [
+      "Right lower quadrant pain",
+      "Anorexia",
+      "Fever",
+      "Nausea"
+    ],
+    "Precautions": [
+      "Early evaluation",
+      "Avoid laxatives"
+    ],
+    "Causes": "Appendiceal obstruction",
+    "Medicine": [
+      "Surgery",
+      "Antibiotics"
+    ]
+  },
+  {
+    "Disease": "Diverticulitis",
+    "Symptoms": [
+      "Left lower quadrant pain",
+      "Fever",
+      "Change in bowel habits"
+    ],
+    "Precautions": [
+      "High-fiber diet",
+      "Avoid smoking"
+    ],
+    "Causes": "Diverticula inflammation",
+    "Medicine": [
+      "Ciprofloxacin+Metronidazole"
+    ]
+  },
+  {
+    "Disease": "Hemorrhoids",
+    "Symptoms": [
+      "Rectal bleeding",
+      "Itching",
+      "Pain"
+    ],
+    "Precautions": [
+      "Fiber intake",
+      "Avoid straining"
+    ],
+    "Causes": "Venous dilation",
+    "Medicine": [
+      "Topical steroids",
+      "Sitz baths"
+    ]
+  },
+  {
+    "Disease": "Hepatitis A",
+    "Symptoms": [
+      "Jaundice",
+      "Fatigue",
+      "Nausea",
+      "Dark urine"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Safe food/water"
+    ],
+    "Causes": "HAV infection",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Hepatitis B",
+    "Symptoms": [
+      "Jaundice",
+      "Fatigue",
+      "Abdominal pain"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Safe sex",
+      "Avoid needles"
+    ],
+    "Causes": "HBV infection",
+    "Medicine": [
+      "Tenofovir",
+      "Entecavir"
+    ]
+  },
+  {
+    "Disease": "Hepatitis C",
+    "Symptoms": [
+      "Fatigue",
+      "Jaundice",
+      "Myalgia"
+    ],
+    "Precautions": [
+      "Avoid sharing needles",
+      "Screening"
+    ],
+    "Causes": "HCV infection",
+    "Medicine": [
+      "Sofosbuvir/Velpatasvir"
+    ]
+  },
+  {
+    "Disease": "Cirrhosis",
+    "Symptoms": [
+      "Ascites",
+      "Jaundice",
+      "Variceal bleeding",
+      "Fatigue"
+    ],
+    "Precautions": [
+      "Alcohol moderation",
+      "Hepatitis treatment"
+    ],
+    "Causes": "Chronic liver injury",
+    "Medicine": [
+      "Spironolactone",
+      "Propranolol"
+    ]
+  },
+  {
+    "Disease": "Acute pancreatitis",
+    "Symptoms": [
+      "Epigastric pain radiating to back",
+      "Nausea",
+      "Vomiting"
+    ],
+    "Precautions": [
+      "Limit alcohol",
+      "Manage gallstones"
+    ],
+    "Causes": "Alcohol,Gallstones,Drugs",
+    "Medicine": [
+      "IV fluids",
+      "Analgesia"
+    ]
+  },
+  {
+    "Disease": "Chronic pancreatitis",
+    "Symptoms": [
+      "Chronic abdominal pain",
+      "Steatorrhea",
+      "Weight loss"
+    ],
+    "Precautions": [
+      "Alcohol cessation",
+      "Nutrition"
+    ],
+    "Causes": "Recurrent pancreatitis",
+    "Medicine": [
+      "Pancreatic enzymes",
+      "Analgesics"
+    ]
+  },
+  {
+    "Disease": "Gallstones (cholelithiasis)",
+    "Symptoms": [
+      "RUQ pain",
+      "Postprandial pain",
+      "Nausea"
+    ],
+    "Precautions": [
+      "Healthy weight",
+      "Dietary moderation"
+    ],
+    "Causes": "Cholesterol stones",
+    "Medicine": [
+      "Analgesics",
+      "Ursodeoxycholic acid"
+    ]
+  },
+  {
+    "Disease": "Cholecystitis",
+    "Symptoms": [
+      "RUQ pain",
+      "Fever",
+      "Nausea"
+    ],
+    "Precautions": [
+      "Early evaluation"
+    ],
+    "Causes": "Gallstone obstruction",
+    "Medicine": [
+      "Antibiotics",
+      "Surgery"
+    ]
+  },
+  {
+    "Disease": "Nephrolithiasis (kidney stones)",
+    "Symptoms": [
+      "Flank pain",
+      "Hematuria",
+      "Nausea"
+    ],
+    "Precautions": [
+      "Hydration",
+      "Dietary modification"
+    ],
+    "Causes": "Calcium oxalate,Uric acid stones",
+    "Medicine": [
+      "Tamsulosin",
+      "Analgesics"
+    ]
+  },
+  {
+    "Disease": "Pyelonephritis",
+    "Symptoms": [
+      "Fever",
+      "Flank pain",
+      "Dysuria"
+    ],
+    "Precautions": [
+      "Hydration",
+      "Hygiene"
+    ],
+    "Causes": "Ascending bacterial infection",
+    "Medicine": [
+      "Ceftriaxone",
+      "Ciprofloxacin"
+    ]
+  },
+  {
+    "Disease": "UTI (cystitis)",
+    "Symptoms": [
+      "Dysuria",
+      "Frequency",
+      "Urgency",
+      "Suprapubic pain"
+    ],
+    "Precautions": [
+      "Hydration",
+      "Hygiene"
+    ],
+    "Causes": "Bacterial infection",
+    "Medicine": [
+      "Nitrofurantoin",
+      "Trimethoprim-sulfamethoxazole"
+    ]
+  },
+  {
+    "Disease": "BPH (benign prostatic hyperplasia)",
+    "Symptoms": [
+      "Weak stream",
+      "Frequency",
+      "Nocturia"
+    ],
+    "Precautions": [
+      "Limit fluids at night",
+      "Monitor"
+    ],
+    "Causes": "Age-related prostate growth",
+    "Medicine": [
+      "Tamsulosin",
+      "Finasteride"
+    ]
+  },
+  {
+    "Disease": "Prostate cancer",
+    "Symptoms": [
+      "Urinary symptoms",
+      "Bone pain",
+      "Weight loss"
+    ],
+    "Precautions": [
+      "Screening per guidelines"
+    ],
+    "Causes": "Genetic and age-related",
+    "Medicine": [
+      "Androgen deprivation therapy",
+      "Docetaxel"
+    ]
+  },
+  {
+    "Disease": "Endometriosis",
+    "Symptoms": [
+      "Pelvic pain",
+      "Dysmenorrhea",
+      "Infertility"
+    ],
+    "Precautions": [
+      "Exercise",
+      "Heat therapy"
+    ],
+    "Causes": "Ectopic endometrial tissue",
+    "Medicine": [
+      "NSAIDs",
+      "Hormonal therapy"
+    ]
+  },
+  {
+    "Disease": "PCOS",
+    "Symptoms": [
+      "Irregular menses",
+      "Hirsutism",
+      "Acne",
+      "Weight gain"
+    ],
+    "Precautions": [
+      "Diet",
+      "Exercise"
+    ],
+    "Causes": "Insulin resistance,Genetic",
+    "Medicine": [
+      "Metformin",
+      "Combined OCPs"
+    ]
+  },
+  {
+    "Disease": "PID (pelvic inflammatory disease)",
+    "Symptoms": [
+      "Pelvic pain",
+      "Fever",
+      "Discharge"
+    ],
+    "Precautions": [
+      "Safe sex",
+      "Screening"
+    ],
+    "Causes": "Polymicrobial incl. chlamydia/gonorrhea",
+    "Medicine": [
+      "Ceftriaxone+Doxycycline+Metronidazole"
+    ]
+  },
+  {
+    "Disease": "Ectopic pregnancy",
+    "Symptoms": [
+      "Unilateral pelvic pain",
+      "Bleeding",
+      "Dizziness"
+    ],
+    "Precautions": [
+      "Early prenatal care"
+    ],
+    "Causes": "Tubal pathology",
+    "Medicine": [
+      "Methotrexate",
+      "Surgery"
+    ]
+  },
+  {
+    "Disease": "Bacterial vaginosis",
+    "Symptoms": [
+      "Discharge",
+      "Fishy odor",
+      "Itching"
+    ],
+    "Precautions": [
+      "Avoid douching",
+      "Safe sex"
+    ],
+    "Causes": "Gardnerella overgrowth",
+    "Medicine": [
+      "Metronidazole",
+      "Clindamycin"
+    ]
+  },
+  {
+    "Disease": "Candidiasis (vulvovaginal)",
+    "Symptoms": [
+      "Pruritus",
+      "Thick white discharge"
+    ],
+    "Precautions": [
+      "Avoid irritants",
+      "Good hygiene"
+    ],
+    "Causes": "Candida overgrowth",
+    "Medicine": [
+      "Fluconazole",
+      "Clotrimazole"
+    ]
+  },
+  {
+    "Disease": "Syphilis",
+    "Symptoms": [
+      "Chancre",
+      "Rash",
+      "Neurologic signs"
+    ],
+    "Precautions": [
+      "Safe sex",
+      "Screening"
+    ],
+    "Causes": "Treponema pallidum",
+    "Medicine": [
+      "Benzathine penicillin G"
+    ]
+  },
+  {
+    "Disease": "Gonorrhea",
+    "Symptoms": [
+      "Discharge",
+      "Dysuria",
+      "Pelvic pain"
+    ],
+    "Precautions": [
+      "Safe sex",
+      "Screening"
+    ],
+    "Causes": "Neisseria gonorrhoeae",
+    "Medicine": [
+      "Ceftriaxone"
+    ]
+  },
+  {
+    "Disease": "Chlamydia",
+    "Symptoms": [
+      "Discharge",
+      "Dysuria",
+      "Pelvic pain"
+    ],
+    "Precautions": [
+      "Safe sex",
+      "Screening"
+    ],
+    "Causes": "Chlamydia trachomatis",
+    "Medicine": [
+      "Doxycycline",
+      "Azithromycin"
+    ]
+  },
+  {
+    "Disease": "HIV infection",
+    "Symptoms": [
+      "Fever",
+      "Lymphadenopathy",
+      "Weight loss",
+      "Opportunistic infections"
+    ],
+    "Precautions": [
+      "Safe sex",
+      "PrEP",
+      "Screening"
+    ],
+    "Causes": "Human immunodeficiency virus",
+    "Medicine": [
+      "Antiretroviral therapy"
+    ]
+  },
+  {
+    "Disease": "AIDS (advanced HIV)",
+    "Symptoms": [
+      "Opportunistic infections",
+      "Weight loss",
+      "Night sweats"
+    ],
+    "Precautions": [
+      "ART adherence",
+      "Prophylaxis"
+    ],
+    "Causes": "Advanced HIV",
+    "Medicine": [
+      "Trimethoprim-sulfamethoxazole",
+      "Azithromycin (prophylaxis)"
+    ]
+  },
+  {
+    "Disease": "Herpes simplex (oral/genital)",
+    "Symptoms": [
+      "Painful vesicles",
+      "Ulcers",
+      "Burning"
+    ],
+    "Precautions": [
+      "Safe sex",
+      "Trigger avoidance"
+    ],
+    "Causes": "HSV-1/HSV-2",
+    "Medicine": [
+      "Acyclovir",
+      "Valacyclovir"
+    ]
+  },
+  {
+    "Disease": "HPV infection",
+    "Symptoms": [
+      "Warts",
+      "Abnormal Pap"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Safe sex"
+    ],
+    "Causes": "Human papillomavirus",
+    "Medicine": [
+      "Imiquimod",
+      "Cryotherapy"
+    ]
+  },
+  {
+    "Disease": "Zika",
+    "Symptoms": [
+      "Fever",
+      "Rash",
+      "Conjunctivitis"
+    ],
+    "Precautions": [
+      "Mosquito avoidance",
+      "Travel advice"
+    ],
+    "Causes": "Zika virus",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Dengue",
+    "Symptoms": [
+      "High fever",
+      "Severe myalgia",
+      "Rash",
+      "Bleeding risk"
+    ],
+    "Precautions": [
+      "Mosquito avoidance",
+      "Eliminate standing water"
+    ],
+    "Causes": "Dengue virus",
+    "Medicine": [
+      "Fluids",
+      "Analgesics (avoid NSAIDs)"
+    ]
+  },
+  {
+    "Disease": "Yellow fever",
+    "Symptoms": [
+      "Fever",
+      "Jaundice",
+      "Myalgia"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Mosquito avoidance"
+    ],
+    "Causes": "Yellow fever virus",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Japanese encephalitis",
+    "Symptoms": [
+      "Fever",
+      "Headache",
+      "Confusion",
+      "Seizures"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Mosquito avoidance"
+    ],
+    "Causes": "JE virus",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Malaria",
+    "Symptoms": [
+      "Fever",
+      "Chills",
+      "Sweats",
+      "Headache"
+    ],
+    "Precautions": [
+      "Mosquito nets",
+      "Prophylaxis"
+    ],
+    "Causes": "Plasmodium spp.",
+    "Medicine": [
+      "Artemisinin-based combination therapy"
+    ]
+  },
+  {
+    "Disease": "Leishmaniasis",
+    "Symptoms": [
+      "Fever",
+      "Hepatosplenomegaly",
+      "Skin lesions"
+    ],
+    "Precautions": [
+      "Insect avoidance"
+    ],
+    "Causes": "Leishmania via sandfly",
+    "Medicine": [
+      "Amphotericin B",
+      "Miltefosine"
+    ]
+  },
+  {
+    "Disease": "Leprosy",
+    "Symptoms": [
+      "Hypopigmented patches",
+      "Numbness",
+      "Neuropathies"
+    ],
+    "Precautions": [
+      "Early detection",
+      "Avoid stigma"
+    ],
+    "Causes": "Mycobacterium leprae",
+    "Medicine": [
+      "Dapsone",
+      "Rifampicin"
+    ]
+  },
+  {
+    "Disease": "Tetanus",
+    "Symptoms": [
+      "Muscle spasms",
+      "Trismus",
+      "Autonomic instability"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Wound care"
+    ],
+    "Causes": "Clostridium tetani",
+    "Medicine": [
+      "Metronidazole",
+      "Tetanus immunoglobulin"
+    ]
+  },
+  {
+    "Disease": "Botulism",
+    "Symptoms": [
+      "Descending paralysis",
+      "Blurred vision",
+      "Dysphagia"
+    ],
+    "Precautions": [
+      "Food safety",
+      "Wound care"
+    ],
+    "Causes": "Clostridium botulinum toxin",
+    "Medicine": [
+      "Antitoxin",
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Anthrax",
+    "Symptoms": [
+      "Skin eschar",
+      "Severe pneumonia",
+      "GI symptoms"
+    ],
+    "Precautions": [
+      "Occupational protection"
+    ],
+    "Causes": "Bacillus anthracis",
+    "Medicine": [
+      "Ciprofloxacin",
+      "Doxycycline"
+    ]
+  },
+  {
+    "Disease": "Plague",
+    "Symptoms": [
+      "Fever",
+      "Buboes",
+      "Sepsis",
+      "Pneumonia"
+    ],
+    "Precautions": [
+      "Rodent control"
+    ],
+    "Causes": "Yersinia pestis",
+    "Medicine": [
+      "Streptomycin",
+      "Gentamicin"
+    ]
+  },
+  {
+    "Disease": "Lyme disease",
+    "Symptoms": [
+      "Erythema migrans",
+      "Fever",
+      "Arthralgia",
+      "Neuropathy"
+    ],
+    "Precautions": [
+      "Tick avoidance",
+      "Prompt tick removal"
+    ],
+    "Causes": "Borrelia burgdorferi",
+    "Medicine": [
+      "Doxycycline",
+      "Amoxicillin"
+    ]
+  },
+  {
+    "Disease": "Rocky Mountain spotted fever",
+    "Symptoms": [
+      "Fever",
+      "Headache",
+      "Rash"
+    ],
+    "Precautions": [
+      "Tick avoidance"
+    ],
+    "Causes": "Rickettsia rickettsii",
+    "Medicine": [
+      "Doxycycline"
+    ]
+  },
+  {
+    "Disease": "Typhus",
+    "Symptoms": [
+      "Fever",
+      "Rash",
+      "Headache"
+    ],
+    "Precautions": [
+      "Vector control"
+    ],
+    "Causes": "Rickettsia spp.",
+    "Medicine": [
+      "Doxycycline"
+    ]
+  },
+  {
+    "Disease": "Q fever",
+    "Symptoms": [
+      "Fever",
+      "Pneumonia",
+      "Hepatitis"
+    ],
+    "Precautions": [
+      "Occupational protection"
+    ],
+    "Causes": "Coxiella burnetii",
+    "Medicine": [
+      "Doxycycline"
+    ]
+  },
+  {
+    "Disease": "Brucellosis",
+    "Symptoms": [
+      "Fever",
+      "Arthralgia",
+      "Sweats"
+    ],
+    "Precautions": [
+      "Food safety",
+      "Occupational protection"
+    ],
+    "Causes": "Brucella spp.",
+    "Medicine": [
+      "Doxycycline+Rifampicin"
+    ]
+  },
+  {
+    "Disease": "Toxoplasmosis",
+    "Symptoms": [
+      "Lymphadenopathy",
+      "Fever",
+      "Neurologic signs"
+    ],
+    "Precautions": [
+      "Food safety",
+      "Avoid cat litter in pregnancy"
+    ],
+    "Causes": "Toxoplasma gondii",
+    "Medicine": [
+      "Pyrimethamine+Sulfadiazine"
+    ]
+  },
+  {
+    "Disease": "Candidemia",
+    "Symptoms": [
+      "Fever",
+      "Sepsis signs"
+    ],
+    "Precautions": [
+      "Catheter care"
+    ],
+    "Causes": "Candida bloodstream infection",
+    "Medicine": [
+      "Echinocandins",
+      "Fluconazole"
+    ]
+  },
+  {
+    "Disease": "Histoplasmosis",
+    "Symptoms": [
+      "Fever",
+      "Cough",
+      "Hilar adenopathy"
+    ],
+    "Precautions": [
+      "Avoid bat/bird droppings"
+    ],
+    "Causes": "Histoplasma capsulatum",
+    "Medicine": [
+      "Itraconazole"
+    ]
+  },
+  {
+    "Disease": "Cryptococcosis",
+    "Symptoms": [
+      "Headache",
+      "Neck stiffness",
+      "Fever"
+    ],
+    "Precautions": [
+      "HIV care",
+      "Avoid exposures"
+    ],
+    "Causes": "Cryptococcus neoformans",
+    "Medicine": [
+      "Amphotericin B+Flucytosine"
+    ]
+  },
+  {
+    "Disease": "Aspergillosis",
+    "Symptoms": [
+      "Cough",
+      "Hemoptysis",
+      "Allergic signs"
+    ],
+    "Precautions": [
+      "Avoid moldy environments"
+    ],
+    "Causes": "Aspergillus spp.",
+    "Medicine": [
+      "Voriconazole"
+    ]
+  },
+  {
+    "Disease": "Strongyloidiasis",
+    "Symptoms": [
+      "Abdominal pain",
+      "Rash",
+      "Eosinophilia"
+    ],
+    "Precautions": [
+      "Avoid contaminated soil"
+    ],
+    "Causes": "Strongyloides stercoralis",
+    "Medicine": [
+      "Ivermectin"
+    ]
+  },
+  {
+    "Disease": "Ascariasis",
+    "Symptoms": [
+      "Abdominal discomfort",
+      "Eosinophilia"
+    ],
+    "Precautions": [
+      "Sanitation",
+      "Food safety"
+    ],
+    "Causes": "Ascaris lumbricoides",
+    "Medicine": [
+      "Albendazole"
+    ]
+  },
+  {
+    "Disease": "Hookworm",
+    "Symptoms": [
+      "Iron deficiency",
+      "Abdominal pain"
+    ],
+    "Precautions": [
+      "Footwear",
+      "Sanitation"
+    ],
+    "Causes": "Ancylostoma/Necator",
+    "Medicine": [
+      "Albendazole"
+    ]
+  },
+  {
+    "Disease": "Schistosomiasis",
+    "Symptoms": [
+      "Hematuria",
+      "Abdominal pain",
+      "Fever"
+    ],
+    "Precautions": [
+      "Avoid freshwater exposure"
+    ],
+    "Causes": "Schistosoma spp.",
+    "Medicine": [
+      "Praziquantel"
+    ]
+  },
+  {
+    "Disease": "Filariasis",
+    "Symptoms": [
+      "Lymphedema",
+      "Hydrocele"
+    ],
+    "Precautions": [
+      "Mosquito avoidance"
+    ],
+    "Causes": "Wuchereria bancrofti",
+    "Medicine": [
+      "Diethylcarbamazine"
+    ]
+  },
+  {
+    "Disease": "Onchocerciasis",
+    "Symptoms": [
+      "Pruritus",
+      "Vision loss",
+      "Skin changes"
+    ],
+    "Precautions": [
+      "Vector control"
+    ],
+    "Causes": "Onchocerca volvulus",
+    "Medicine": [
+      "Ivermectin"
+    ]
+  },
+  {
+    "Disease": "Ebola virus disease",
+    "Symptoms": [
+      "Fever",
+      "Hemorrhage",
+      "Vomiting",
+      "Diarrhea"
+    ],
+    "Precautions": [
+      "Barrier precautions",
+      "Contact tracing"
+    ],
+    "Causes": "Ebola virus",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Marburg virus disease",
+    "Symptoms": [
+      "Fever",
+      "Hemorrhage",
+      "Shock"
+    ],
+    "Precautions": [
+      "Barrier precautions"
+    ],
+    "Causes": "Marburg virus",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "Hypertension",
+    "Symptoms": [
+      "Headache",
+      "Dizziness",
+      "Vision changes"
+    ],
+    "Precautions": [
+      "Salt reduction",
+      "Exercise",
+      "Stress management"
+    ],
+    "Causes": "Genetic and lifestyle",
+    "Medicine": [
+      "ACE inhibitors",
+      "Calcium channel blockers"
+    ]
+  },
+  {
+    "Disease": "Coronary artery disease",
+    "Symptoms": [
+      "Chest pain",
+      "Dyspnea",
+      "Fatigue"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Lipid control",
+      "Exercise"
+    ],
+    "Causes": "Atherosclerosis",
+    "Medicine": [
+      "Aspirin",
+      "Statins"
+    ]
+  },
+  {
+    "Disease": "Heart failure",
+    "Symptoms": [
+      "Dyspnea",
+      "Edema",
+      "Orthopnea",
+      "Fatigue"
+    ],
+    "Precautions": [
+      "Salt restriction",
+      "Exercise",
+      "Weight monitoring"
+    ],
+    "Causes": "Ischemic,Hypertensive,Valvular",
+    "Medicine": [
+      "ACE inhibitors",
+      "Beta blockers"
+    ]
+  },
+  {
+    "Disease": "Arrhythmia (AFib)",
+    "Symptoms": [
+      "Palpitations",
+      "Dyspnea",
+      "Fatigue"
+    ],
+    "Precautions": [
+      "Alcohol moderation",
+      "Electrolyte balance"
+    ],
+    "Causes": "Electrical conduction abnormalities",
+    "Medicine": [
+      "Beta blockers",
+      "Anticoagulants"
+    ]
+  },
+  {
+    "Disease": "Valvular heart disease",
+    "Symptoms": [
+      "Murmur",
+      "Dyspnea",
+      "Edema"
+    ],
+    "Precautions": [
+      "Infection prevention",
+      "Rheumatic fever control"
+    ],
+    "Causes": "Degenerative,Rheumatic",
+    "Medicine": [
+      "Diuretics",
+      "Anticoagulants"
+    ]
+  },
+  {
+    "Disease": "Myocarditis",
+    "Symptoms": [
+      "Chest pain",
+      "Fatigue",
+      "Arrhythmias"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Infection prevention"
+    ],
+    "Causes": "Viral/Autoimmune",
+    "Medicine": [
+      "NSAIDs",
+      "ACE inhibitors"
+    ]
+  },
+  {
+    "Disease": "Pericarditis",
+    "Symptoms": [
+      "Chest pain relieved by sitting forward",
+      "Fever"
+    ],
+    "Precautions": [
+      "Infection prevention"
+    ],
+    "Causes": "Viral,Bacterial,Autoimmune",
+    "Medicine": [
+      "NSAIDs",
+      "Colchicine"
+    ]
+  },
+  {
+    "Disease": "Stroke (ischemic)",
+    "Symptoms": [
+      "Focal deficits",
+      "Weakness",
+      "Aphasia",
+      "Vision loss"
+    ],
+    "Precautions": [
+      "BP control",
+      "Antiplatelets",
+      "Statins"
+    ],
+    "Causes": "Thromboembolism",
+    "Medicine": [
+      "Aspirin",
+      "Clopidogrel"
+    ]
+  },
+  {
+    "Disease": "Hemorrhagic stroke",
+    "Symptoms": [
+      "Headache",
+      "Neurologic deficits",
+      "Nausea"
+    ],
+    "Precautions": [
+      "BP control"
+    ],
+    "Causes": "Aneurysm,Hypertension",
+    "Medicine": [
+      "Supportive care"
+    ]
+  },
+  {
+    "Disease": "TIA",
+    "Symptoms": [
+      "Transient focal deficits"
+    ],
+    "Precautions": [
+      "Risk factor control"
+    ],
+    "Causes": "Embolic/Thrombotic",
+    "Medicine": [
+      "Antiplatelets",
+      "Statins"
+    ]
+  },
+  {
+    "Disease": "Migraine",
+    "Symptoms": [
+      "Unilateral throbbing headache",
+      "Nausea",
+      "Photophobia"
+    ],
+    "Precautions": [
+      "Trigger tracking",
+      "Sleep hygiene"
+    ],
+    "Causes": "Neurovascular dysfunction",
+    "Medicine": [
+      "Triptans",
+      "NSAIDs"
+    ]
+  },
+  {
+    "Disease": "Tension headache",
+    "Symptoms": [
+      "Bilateral pressure headache"
+    ],
+    "Precautions": [
+      "Stress management",
+      "Ergonomics"
+    ],
+    "Causes": "Muscle tension",
+    "Medicine": [
+      "NSAIDs"
+    ]
+  },
+  {
+    "Disease": "Cluster headache",
+    "Symptoms": [
+      "Severe unilateral orbital pain",
+      "Lacrimation",
+      "Nasal congestion"
+    ],
+    "Precautions": [
+      "Avoid alcohol during bout",
+      "Oxygen therapy"
+    ],
+    "Causes": "Trigeminal autonomic",
+    "Medicine": [
+      "Sumatriptan",
+      "Oxygen"
+    ]
+  },
+  {
+    "Disease": "Epilepsy",
+    "Symptoms": [
+      "Recurrent seizures",
+      "Postictal confusion"
+    ],
+    "Precautions": [
+      "Sleep hygiene",
+      "Medication adherence"
+    ],
+    "Causes": "Various neurogenic causes",
+    "Medicine": [
+      "Levetiracetam",
+      "Valproate"
+    ]
+  },
+  {
+    "Disease": "Parkinson’s disease",
+    "Symptoms": [
+      "Tremor",
+      "Bradykinesia",
+      "Rigidity",
+      "Postural instability"
+    ],
+    "Precautions": [
+      "Exercise",
+      "Medication adherence"
+    ],
+    "Causes": "Dopamine neuron loss",
+    "Medicine": [
+      "Levodopa",
+      "Pramipexole"
+    ]
+  },
+  {
+    "Disease": "Alzheimer’s disease",
+    "Symptoms": [
+      "Memory loss",
+      "Disorientation",
+      "Aphasia"
+    ],
+    "Precautions": [
+      "Cognitive engagement",
+      "Routine"
+    ],
+    "Causes": "Neurodegeneration",
+    "Medicine": [
+      "Donepezil",
+      "Memantine"
+    ]
+  },
+  {
+    "Disease": "Multiple sclerosis",
+    "Symptoms": [
+      "Weakness",
+      "Numbness",
+      "Optic neuritis",
+      "Ataxia"
+    ],
+    "Precautions": [
+      "Temperature management",
+      "Medication adherence"
+    ],
+    "Causes": "Autoimmune demyelination",
+    "Medicine": [
+      "Interferon beta",
+      "Ocrelizumab"
+    ]
+  },
+  {
+    "Disease": "ALS",
+    "Symptoms": [
+      "Weakness",
+      "Muscle wasting",
+      "Dysphagia"
+    ],
+    "Precautions": [
+      "Respiratory support",
+      "Nutrition"
+    ],
+    "Causes": "Motor neuron degeneration",
+    "Medicine": [
+      "Riluzole",
+      "Edaravone"
+    ]
+  },
+  {
+    "Disease": "Guillain–Barré syndrome",
+    "Symptoms": [
+      "Ascending weakness",
+      "Areflexia",
+      "Paresthesia"
+    ],
+    "Precautions": [
+      "Vaccination",
+      "Infection prevention"
+    ],
+    "Causes": "Autoimmune post-infection",
+    "Medicine": [
+      "IVIG",
+      "Plasmapheresis"
+    ]
+  },
+  {
+    "Disease": "Myasthenia gravis",
+    "Symptoms": [
+      "Fatigable weakness",
+      "Ptosis",
+      "Diplopia"
+    ],
+    "Precautions": [
+      "Medication adherence",
+      "Infection prevention"
+    ],
+    "Causes": "Autoimmune against ACh receptors",
+    "Medicine": [
+      "Pyridostigmine",
+      "Prednisone"
+    ]
+  },
+  {
+    "Disease": "Bell’s palsy",
+    "Symptoms": [
+      "Unilateral facial weakness"
+    ],
+    "Precautions": [
+      "Eye protection"
+    ],
+    "Causes": "Idiopathic/HSV",
+    "Medicine": [
+      "Prednisone",
+      "Acyclovir"
+    ]
+  },
+  {
+    "Disease": "Trigeminal neuralgia",
+    "Symptoms": [
+      "Electric shock facial pain"
+    ],
+    "Precautions": [
+      "Trigger avoidance"
+    ],
+    "Causes": "Vascular compression",
+    "Medicine": [
+      "Carbamazepine"
+    ]
+  },
+  {
+    "Disease": "Carpal tunnel syndrome",
+    "Symptoms": [
+      "Hand numbness",
+      "Nocturnal pain",
+      "Weakness"
+    ],
+    "Precautions": [
+      "Ergonomics",
+      "Splinting"
+    ],
+    "Causes": "Median nerve compression",
+    "Medicine": [
+      "NSAIDs"
+    ]
+  },
+  {
+    "Disease": "Sciatica",
+    "Symptoms": [
+      "Radiating leg pain",
+      "Numbness"
+    ],
+    "Precautions": [
+      "Physical therapy",
+      "Ergonomics"
+    ],
+    "Causes": "Lumbar disc herniation",
+    "Medicine": [
+      "NSAIDs"
+    ]
+  },
+  {
+    "Disease": "Osteoarthritis",
+    "Symptoms": [
+      "Joint pain",
+      "Stiffness",
+      "Crepitus"
+    ],
+    "Precautions": [
+      "Weight loss",
+      "Exercise"
+    ],
+    "Causes": "Degenerative cartilage loss",
+    "Medicine": [
+      "NSAIDs",
+      "Topical diclofenac"
+    ]
+  },
+  {
+    "Disease": "Rheumatoid arthritis",
+    "Symptoms": [
+      "Symmetric joint swelling",
+      "Morning stiffness"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Exercise"
+    ],
+    "Causes": "Autoimmune synovitis",
+    "Medicine": [
+      "Methotrexate",
+      "Adalimumab"
+    ]
+  },
+  {
+    "Disease": "Psoriatic arthritis",
+    "Symptoms": [
+      "Joint pain",
+      "Dactylitis",
+      "Back pain"
+    ],
+    "Precautions": [
+      "Weight control",
+      "Skin care"
+    ],
+    "Causes": "Autoimmune",
+    "Medicine": [
+      "NSAIDs",
+      "DMARDs"
+    ]
+  },
+  {
+    "Disease": "Gout",
+    "Symptoms": [
+      "Acute joint pain",
+      "Redness",
+      "Swelling"
+    ],
+    "Precautions": [
+      "Alcohol moderation",
+      "Purine reduction"
+    ],
+    "Causes": "Urate crystal deposition",
+    "Medicine": [
+      "Colchicine",
+      "Allopurinol"
+    ]
+  },
+  {
+    "Disease": "SLE (lupus)",
+    "Symptoms": [
+      "Fatigue",
+      "Rash",
+      "Arthralgia",
+      "Serositis"
+    ],
+    "Precautions": [
+      "Sun protection",
+      "Medication adherence"
+    ],
+    "Causes": "Autoimmune",
+    "Medicine": [
+      "Hydroxychloroquine",
+      "Prednisone"
+    ]
+  },
+  {
+    "Disease": "Ankylosing spondylitis",
+    "Symptoms": [
+      "Back pain",
+      "Morning stiffness",
+      "Reduced flexibility"
+    ],
+    "Precautions": [
+      "Exercise",
+      "Posture work"
+    ],
+    "Causes": "Autoimmune (HLA-B27)",
+    "Medicine": [
+      "NSAIDs",
+      "Infliximab"
+    ]
+  },
+  {
+    "Disease": "Fibromyalgia",
+    "Symptoms": [
+      "Widespread pain",
+      "Fatigue",
+      "Sleep disturbance"
+    ],
+    "Precautions": [
+      "Sleep hygiene",
+      "Exercise"
+    ],
+    "Causes": "Central sensitization",
+    "Medicine": [
+      "Duloxetine",
+      "Pregabalin"
+    ]
+  },
+  {
+    "Disease": "Dermatitis (atopic)",
+    "Symptoms": [
+      "Pruritus",
+      "Erythema",
+      "Lichenification"
+    ],
+    "Precautions": [
+      "Emollients",
+      "Trigger avoidance"
+    ],
+    "Causes": "Atopic predisposition",
+    "Medicine": [
+      "Topical steroids",
+      "Calcineurin inhibitors"
+    ]
+  },
+  {
+    "Disease": "Psoriasis",
+    "Symptoms": [
+      "Plaques",
+      "Silvery scale",
+      "Pruritus"
+    ],
+    "Precautions": [
+      "Moisturizers",
+      "Sunlight moderation"
+    ],
+    "Causes": "Autoimmune skin disease",
+    "Medicine": [
+      "Topical steroids",
+      "Biologics"
+    ]
+  },
+  {
+    "Disease": "Acne vulgaris",
+    "Symptoms": [
+      "Comedones",
+      "Papules",
+      "Pustules"
+    ],
+    "Precautions": [
+      "Gentle cleansing",
+      "Non-comedogenic products"
+    ],
+    "Causes": "Follicular plugging,Androgens",
+    "Medicine": [
+      "Benzoyl peroxide",
+      "Retinoids"
+    ]
+  },
+  {
+    "Disease": "Rosacea",
+    "Symptoms": [
+      "Facial flushing",
+      "Papules",
+      "Telangiectasia"
+    ],
+    "Precautions": [
+      "Trigger avoidance",
+      "Sunscreen"
+    ],
+    "Causes": "Vascular dysregulation",
+    "Medicine": [
+      "Metronidazole gel",
+      "Azelaic acid"
+    ]
+  },
+  {
+    "Disease": "Vitiligo",
+    "Symptoms": [
+      "Depigmented patches"
+    ],
+    "Precautions": [
+      "Sun protection"
+    ],
+    "Causes": "Autoimmune melanocyte loss",
+    "Medicine": [
+      "Topical steroids",
+      "Phototherapy"
+    ]
+  },
+  {
+    "Disease": "Tinea corporis",
+    "Symptoms": [
+      "Ringworm rash",
+      "Pruritus"
+    ],
+    "Precautions": [
+      "Hygiene",
+      "Avoid sharing items"
+    ],
+    "Causes": "Dermatophyte infection",
+    "Medicine": [
+      "Clotrimazole",
+      "Terbinafine"
+    ]
+  },
+  {
+    "Disease": "Tinea pedis",
+    "Symptoms": [
+      "Foot itching",
+      "Scaling"
+    ],
+    "Precautions": [
+      "Keep feet dry"
+    ],
+    "Causes": "Dermatophyte infection",
+    "Medicine": [
+      "Terbinafine"
+    ]
+  },
+  {
+    "Disease": "Scabies",
+    "Symptoms": [
+      "Intense nocturnal itching",
+      "Burrows"
+    ],
+    "Precautions": [
+      "Treat close contacts",
+      "Wash linens"
+    ],
+    "Causes": "Sarcoptes scabiei",
+    "Medicine": [
+      "Permethrin cream",
+      "Ivermectin"
+    ]
+  },
+  {
+    "Disease": "Impetigo",
+    "Symptoms": [
+      "Honey-crusted lesions"
+    ],
+    "Precautions": [
+      "Hygiene",
+      "Avoid scratching"
+    ],
+    "Causes": "Staph/Strep skin infection",
+    "Medicine": [
+      "Mupirocin",
+      "Cephalexin"
+    ]
+  },
+  {
+    "Disease": "Cellulitis",
+    "Symptoms": [
+      "Redness",
+      "Warmth",
+      "Pain",
+      "Fever"
+    ],
+    "Precautions": [
+      "Skin care",
+      "Hygiene"
+    ],
+    "Causes": "Streptococci,Staphylococcus",
+    "Medicine": [
+      "Cephalexin",
+      "Amoxicillin-clavulanate"
+    ]
+  },
+  {
+    "Disease": "Erysipelas",
+    "Symptoms": [
+      "Well-demarcated red plaques",
+      "Fever"
+    ],
+    "Precautions": [
+      "Hygiene"
+    ],
+    "Causes": "Streptococcus pyogenes",
+    "Medicine": [
+      "Penicillin"
+    ]
+  },
+  {
+    "Disease": "Diabetes mellitus type 1",
+    "Symptoms": [
+      "Polyuria",
+      "Polydipsia",
+      "Weight loss",
+      "Fatigue"
+    ],
+    "Precautions": [
+      "Glucose monitoring",
+      "Diet"
+    ],
+    "Causes": "Autoimmune beta-cell destruction",
+    "Medicine": [
+      "Insulin"
+    ]
+  },
+  {
+    "Disease": "Diabetes mellitus type 2",
+    "Symptoms": [
+      "Polyuria",
+      "Polydipsia",
+      "Blurred vision"
+    ],
+    "Precautions": [
+      "Diet",
+      "Exercise",
+      "Weight loss"
+    ],
+    "Causes": "Insulin resistance",
+    "Medicine": [
+      "Metformin",
+      "SGLT2 inhibitors"
+    ]
+  },
+  {
+    "Disease": "Diabetic ketoacidosis",
+    "Symptoms": [
+      "Abdominal pain",
+      "Vomiting",
+      "Kussmaul breathing",
+      "Fruity breath"
+    ],
+    "Precautions": [
+      "Sick-day rules",
+      "Monitoring"
+    ],
+    "Causes": "Insulin deficiency",
+    "Medicine": [
+      "IV insulin",
+      "Fluids"
+    ]
+  },
+  {
+    "Disease": "Hypoglycemia",
+    "Symptoms": [
+      "Sweating",
+      "Confusion",
+      "Tremor"
+    ],
+    "Precautions": [
+      "Regular meals",
+      "Medication review"
+    ],
+    "Causes": "Excess insulin,Missed meals",
+    "Medicine": [
+      "Glucose tablets"
+    ]
+  },
+  {
+    "Disease": "Hypothyroidism",
+    "Symptoms": [
+      "Fatigue",
+      "Weight gain",
+      "Cold intolerance",
+      "Constipation"
+    ],
+    "Precautions": [
+      "Iodine sufficiency",
+      "Medication adherence"
+    ],
+    "Causes": "Autoimmune (Hashimoto)",
+    "Medicine": [
+      "Levothyroxine"
+    ]
+  },
+  {
+    "Disease": "Hyperthyroidism",
+    "Symptoms": [
+      "Weight loss",
+      "Heat intolerance",
+      "Palpitations",
+      "Tremor"
+    ],
+    "Precautions": [
+      "Iodine moderation",
+      "Medication adherence"
+    ],
+    "Causes": "Autoimmune (Graves)",
+    "Medicine": [
+      "Methimazole",
+      "Propranolol"
+    ]
+  },
+  {
+    "Disease": "Thyroid nodules",
+    "Symptoms": [
+      "Neck lump",
+      "Dysphagia"
+    ],
+    "Precautions": [
+      "Iodine sufficiency"
+    ],
+    "Causes": "Benign/Malignant nodules",
+    "Medicine": [
+      "Observation",
+      "Levothyroxine suppression (selected)"
+    ]
+  },
+  {
+    "Disease": "Cushing syndrome",
+    "Symptoms": [
+      "Central obesity",
+      "Striae",
+      "Hypertension"
+    ],
+    "Precautions": [
+      "Medication review"
+    ],
+    "Causes": "Excess cortisol",
+    "Medicine": [
+      "Surgery",
+      "Ketoconazole"
+    ]
+  },
+  {
+    "Disease": "Addison disease",
+    "Symptoms": [
+      "Fatigue",
+      "Hyperpigmentation",
+      "Hypotension"
+    ],
+    "Precautions": [
+      "Stress dosing education"
+    ],
+    "Causes": "Adrenal insufficiency",
+    "Medicine": [
+      "Hydrocortisone",
+      "Fludrocortisone"
+    ]
+  },
+  {
+    "Disease": "Hyperparathyroidism",
+    "Symptoms": [
+      "Bone pain",
+      "Kidney stones",
+      "Abdominal pain"
+    ],
+    "Precautions": [
+      "Hydration"
+    ],
+    "Causes": "Excess PTH",
+    "Medicine": [
+      "Cinacalcet"
+    ]
+  },
+  {
+    "Disease": "Hypoparathyroidism",
+    "Symptoms": [
+      "Muscle cramps",
+      "Tetany",
+      "Paresthesia"
+    ],
+    "Precautions": [
+      "Calcium/Vit D intake"
+    ],
+    "Causes": "Low PTH",
+    "Medicine": [
+      "Calcium",
+      "Calcitriol"
+    ]
+  },
+  {
+    "Disease": "Obesity",
+    "Symptoms": [
+      "Weight gain",
+      "Sleep apnea",
+      "Joint pain"
+    ],
+    "Precautions": [
+      "Diet",
+      "Exercise",
+      "Behavioral support"
+    ],
+    "Causes": "Energy imbalance,Genetic",
+    "Medicine": [
+      "Orlistat",
+      "GLP-1 agonists"
+    ]
+  },
+  {
+    "Disease": "Dyslipidemia",
+    "Symptoms": [
+      "No symptoms",
+      "Xanthomas in severe cases"
+    ],
+    "Precautions": [
+      "Diet",
+      "Exercise"
+    ],
+    "Causes": "High LDL/Triglycerides",
+    "Medicine": [
+      "Statins",
+      "Ezetimibe"
+    ]
+  },
+  {
+    "Disease": "Anemia (iron deficiency)",
+    "Symptoms": [
+      "Fatigue",
+      "Pallor",
+      "Dyspnea"
+    ],
+    "Precautions": [
+      "Dietary iron",
+      "Screening"
+    ],
+    "Causes": "Blood loss,Poor intake",
+    "Medicine": [
+      "Iron supplementation"
+    ]
+  },
+  {
+    "Disease": "Vitamin B12 deficiency",
+    "Symptoms": [
+      "Neuropathy",
+      "Anemia",
+      "Glossitis"
+    ],
+    "Precautions": [
+      "Dietary adequacy"
+    ],
+    "Causes": "Poor absorption,Pernicious anemia",
+    "Medicine": [
+      "Cyanocobalamin"
+    ]
+  },
+  {
+    "Disease": "Folate deficiency",
+    "Symptoms": [
+      "Anemia",
+      "Glossitis"
+    ],
+    "Precautions": [
+      "Dietary adequacy"
+    ],
+    "Causes": "Poor intake,Alcohol use",
+    "Medicine": [
+      "Folic acid"
+    ]
+  },
+  {
+    "Disease": "Thalassemia",
+    "Symptoms": [
+      "Anemia",
+      "Bone deformities",
+      "Hepatosplenomegaly"
+    ],
+    "Precautions": [
+      "Genetic counseling"
+    ],
+    "Causes": "Globin gene mutations",
+    "Medicine": [
+      "Transfusion",
+      "Iron chelation"
+    ]
+  },
+  {
+    "Disease": "Sickle cell disease",
+    "Symptoms": [
+      "Pain crises",
+      "Anemia",
+      "Jaundice"
+    ],
+    "Precautions": [
+      "Hydration",
+      "Avoid triggers"
+    ],
+    "Causes": "HbS mutation",
+    "Medicine": [
+      "Hydroxyurea",
+      "Analgesics"
+    ]
+  },
+  {
+    "Disease": "Hemophilia A",
+    "Symptoms": [
+      "Bleeding",
+      "Joint bleeds"
+    ],
+    "Precautions": [
+      "Avoid trauma"
+    ],
+    "Causes": "Factor VIII deficiency",
+    "Medicine": [
+      "Factor replacement"
+    ]
+  },
+  {
+    "Disease": "ITP (immune thrombocytopenia)",
+    "Symptoms": [
+      "Petechiae",
+      "Bruising",
+      "Bleeding"
+    ],
+    "Precautions": [
+      "Medication review"
+    ],
+    "Causes": "Autoimmune platelet destruction",
+    "Medicine": [
+      "Steroids",
+      "IVIG"
+    ]
+  },
+  {
+    "Disease": "DVT",
+    "Symptoms": [
+      "Leg swelling",
+      "Pain",
+      "Redness"
+    ],
+    "Precautions": [
+      "Mobilization",
+      "Compression"
+    ],
+    "Causes": "Hypercoagulability,Stasis",
+    "Medicine": [
+      "Heparin",
+      "DOACs"
+    ]
+  },
+  {
+    "Disease": "Pulmonary embolism",
+    "Symptoms": [
+      "Sudden dyspnea",
+      "Chest pain",
+      "Tachycardia"
+    ],
+    "Precautions": [
+      "DVT prevention"
+    ],
+    "Causes": "Embolus from DVT",
+    "Medicine": [
+      "Heparin",
+      "DOACs"
+    ]
+  },
+  {
+    "Disease": "Panic disorder",
+    "Symptoms": [
+      "Panic attacks",
+      "Palpitations",
+      "Dyspnea"
+    ],
+    "Precautions": [
+      "CBT",
+      "Stress management"
+    ],
+    "Causes": "Psychological",
+    "Medicine": [
+      "SSRIs",
+      "Benzodiazepines (short-term)"
+    ]
+  },
+  {
+    "Disease": "Major depressive disorder",
+    "Symptoms": [
+      "Low mood",
+      "Anhedonia",
+      "Sleep change"
+    ],
+    "Precautions": [
+      "Therapy",
+      "Routine",
+      "Social support"
+    ],
+    "Causes": "Multifactorial neurobiology",
+    "Medicine": [
+      "SSRIs",
+      "SNRIs"
+    ]
+  },
+  {
+    "Disease": "Generalized anxiety disorder",
+    "Symptoms": [
+      "Excessive worry",
+      "Restlessness",
+      "Sleep disturbance"
+    ],
+    "Precautions": [
+      "CBT",
+      "Mindfulness"
+    ],
+    "Causes": "Psychological",
+    "Medicine": [
+      "SSRIs",
+      "Buspirone"
+    ]
+  },
+  {
+    "Disease": "Bipolar disorder",
+    "Symptoms": [
+      "Mood swings",
+      "Mania",
+      "Depression"
+    ],
+    "Precautions": [
+      "Sleep hygiene",
+      "Regular routine"
+    ],
+    "Causes": "Neurobiological",
+    "Medicine": [
+      "Lithium",
+      "Valproate"
+    ]
+  },
+  {
+    "Disease": "Schizophrenia",
+    "Symptoms": [
+      "Hallucinations",
+      "Delusions",
+      "Disorganized thought"
+    ],
+    "Precautions": [
+      "Therapy",
+      "Social support"
+    ],
+    "Causes": "Neurobiological",
+    "Medicine": [
+      "Antipsychotics"
+    ]
+  },
+  {
+    "Disease": "Autism spectrum disorder",
+    "Symptoms": [
+      "Social communication difficulties",
+      "Repetitive behaviors"
+    ],
+    "Precautions": [
+      "Early intervention",
+      "Structured support"
+    ],
+    "Causes": "Neurodevelopmental",
+    "Medicine": [
+      "Behavioral therapy"
+    ]
+  },
+  {
+    "Disease": "ADHD",
+    "Symptoms": [
+      "Inattention",
+      "Hyperactivity",
+      "Impulsivity"
+    ],
+    "Precautions": [
+      "Routine",
+      "Behavioral strategies"
+    ],
+    "Causes": "Neurodevelopmental",
+    "Medicine": [
+      "Methylphenidate",
+      "Atomoxetine"
+    ]
+  },
+  {
+    "Disease": "Alcohol use disorder",
+    "Symptoms": [
+      "Cravings",
+      "Tolerance",
+      "Withdrawal"
+    ],
+    "Precautions": [
+      "Counseling",
+      "Limit access"
+    ],
+    "Causes": "Alcohol dependence",
+    "Medicine": [
+      "Naltrexone",
+      "Acamprosate"
+    ]
+  },
+  {
+    "Disease": "Opioid use disorder",
+    "Symptoms": [
+      "Cravings",
+      "Withdrawal",
+      "Overdose risk"
+    ],
+    "Precautions": [
+      "Naloxone access",
+      "Counseling"
+    ],
+    "Causes": "Opioid dependence",
+    "Medicine": [
+      "Buprenorphine",
+      "Methadone"
+    ]
+  },
+  {
+    "Disease": "Lung cancer",
+    "Symptoms": [
+      "Cough",
+      "Weight loss",
+      "Hemoptysis"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Screening"
+    ],
+    "Causes": "Genetic mutations,Smoking",
+    "Medicine": [
+      "Platinum-based chemo",
+      "Targeted therapy"
+    ]
+  },
+  {
+    "Disease": "Breast cancer",
+    "Symptoms": [
+      "Breast lump",
+      "Discharge",
+      "Skin changes"
+    ],
+    "Precautions": [
+      "Screening",
+      "Genetic counseling"
+    ],
+    "Causes": "BRCA mutations,Hormonal",
+    "Medicine": [
+      "Tamoxifen",
+      "Taxanes"
+    ]
+  },
+  {
+    "Disease": "Colorectal cancer",
+    "Symptoms": [
+      "Change in bowel habits",
+      "Bleeding",
+      "Anemia"
+    ],
+    "Precautions": [
+      "Screening",
+      "Diet"
+    ],
+    "Causes": "Genetic,Inflammation",
+    "Medicine": [
+      "Fluorouracil",
+      "Oxaliplatin"
+    ]
+  },
+  {
+    "Disease": "Cervical cancer",
+    "Symptoms": [
+      "Abnormal bleeding",
+      "Pelvic pain"
+    ],
+    "Precautions": [
+      "HPV vaccination",
+      "Screening"
+    ],
+    "Causes": "Persistent HPV",
+    "Medicine": [
+      "Cisplatin",
+      "Radiation"
+    ]
+  },
+  {
+    "Disease": "Leukemia",
+    "Symptoms": [
+      "Fatigue",
+      "Bruising",
+      "Infections"
+    ],
+    "Precautions": [
+      "Avoid toxins"
+    ],
+    "Causes": "Genetic mutations",
+    "Medicine": [
+      "Imatinib (CML)",
+      "Cytarabine"
+    ]
+  },
+  {
+    "Disease": "Lymphoma",
+    "Symptoms": [
+      "Lymphadenopathy",
+      "Fever",
+      "Night sweats"
+    ],
+    "Precautions": [
+      "Infection prevention"
+    ],
+    "Causes": "Genetic mutations",
+    "Medicine": [
+      "R-CHOP",
+      "Brentuximab"
+    ]
+  },
+  {
+    "Disease": "Melanoma",
+    "Symptoms": [
+      "Pigmented lesion changes"
+    ],
+    "Precautions": [
+      "Sun protection"
+    ],
+    "Causes": "UV exposure,Genetic",
+    "Medicine": [
+      "Immune checkpoint inhibitors"
+    ]
+  },
+  {
+    "Disease": "Basal cell carcinoma",
+    "Symptoms": [
+      "Pearly papule",
+      "Ulceration"
+    ],
+    "Precautions": [
+      "Sun protection"
+    ],
+    "Causes": "UV exposure",
+    "Medicine": [
+      "Mohs surgery",
+      "Imiquimod"
+    ]
+  },
+  {
+    "Disease": "Squamous cell carcinoma (skin)",
+    "Symptoms": [
+      "Scaly plaque",
+      "Ulcer"
+    ],
+    "Precautions": [
+      "Sun protection"
+    ],
+    "Causes": "UV exposure",
+    "Medicine": [
+      "Surgery"
+    ]
+  },
+  {
+    "Disease": "Osteoporosis",
+    "Symptoms": [
+      "Fragility fractures",
+      "Back pain",
+      "Height loss"
+    ],
+    "Precautions": [
+      "Calcium/Vit D",
+      "Weight-bearing exercise"
+    ],
+    "Causes": "Low bone density",
+    "Medicine": [
+      "Bisphosphonates",
+      "Denosumab"
+    ]
+  },
+  {
+    "Disease": "Rickets",
+    "Symptoms": [
+      "Bone deformities",
+      "Delayed growth"
+    ],
+    "Precautions": [
+      "Vit D supplementation",
+      "Sunlight"
+    ],
+    "Causes": "Vit D deficiency",
+    "Medicine": [
+      "Vitamin D",
+      "Calcium"
+    ]
+  },
+  {
+    "Disease": "Hyperuricemia",
+    "Symptoms": [
+      "Joint pain risk",
+      "Tophus"
+    ],
+    "Precautions": [
+      "Diet moderation"
+    ],
+    "Causes": "Urate excess",
+    "Medicine": [
+      "Allopurinol",
+      "Febuxostat"
+    ]
+  },
+  {
+    "Disease": "Chronic kidney disease",
+    "Symptoms": [
+      "Fatigue",
+      "Edema",
+      "Nocturia"
+    ],
+    "Precautions": [
+      "BP control",
+      "Diabetes control"
+    ],
+    "Causes": "Diabetic nephropathy,HTN",
+    "Medicine": [
+      "ACE inhibitors",
+      "Diuretics"
+    ]
+  },
+  {
+    "Disease": "Acute kidney injury",
+    "Symptoms": [
+      "Oliguria",
+      "Edema",
+      "Nausea"
+    ],
+    "Precautions": [
+      "Hydration",
+      "Medication review"
+    ],
+    "Causes": "Ischemia,Toxins",
+    "Medicine": [
+      "IV fluids"
+    ]
+  },
+  {
+    "Disease": "Nephrotic syndrome",
+    "Symptoms": [
+      "Edema",
+      "Proteinuria",
+      "Foamy urine"
+    ],
+    "Precautions": [
+      "Salt restriction"
+    ],
+    "Causes": "Glomerular disease",
+    "Medicine": [
+      "Steroids",
+      "ACE inhibitors"
+    ]
+  },
+  {
+    "Disease": "Glaucoma",
+    "Symptoms": [
+      "Peripheral vision loss",
+      "Eye pain"
+    ],
+    "Precautions": [
+      "Regular eye checks"
+    ],
+    "Causes": "High intraocular pressure",
+    "Medicine": [
+      "Latanoprost",
+      "Timolol"
+    ]
+  },
+  {
+    "Disease": "Cataract",
+    "Symptoms": [
+      "Painless vision loss",
+      "Glare"
+    ],
+    "Precautions": [
+      "UV protection"
+    ],
+    "Causes": "Lens opacity with age",
+    "Medicine": [
+      "Surgery"
+    ]
+  },
+  {
+    "Disease": "Macular degeneration",
+    "Symptoms": [
+      "Central vision loss"
+    ],
+    "Precautions": [
+      "Smoking cessation",
+      "Eye nutrition"
+    ],
+    "Causes": "Age-related retinal changes",
+    "Medicine": [
+      "AREDS vitamins",
+      "Anti-VEGF"
+    ]
+  },
+  {
+    "Disease": "Otitis media with effusion",
+    "Symptoms": [
+      "Hearing difficulty",
+      "Fullness"
+    ],
+    "Precautions": [
+      "Avoid smoke",
+      "Monitoring"
+    ],
+    "Causes": "Post-infection eustachian dysfunction",
+    "Medicine": [
+      "Observation"
+    ]
+  },
+  {
+    "Disease": "Meniere’s disease",
+    "Symptoms": [
+      "Vertigo",
+      "Tinnitus",
+      "Hearing loss"
+    ],
+    "Precautions": [
+      "Salt restriction",
+      "Stress management"
+    ],
+    "Causes": "Endolymphatic hydrops",
+    "Medicine": [
+      "Betahistine",
+      "Diuretics"
+    ]
+  }
+]

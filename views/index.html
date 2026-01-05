@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HealthAI – Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@500;600;700&
+    family=PT+Sans:wght@400;700&
+    family=Smooch+Sans:wght@400;600;700&
+    family=Tagesschrift&
+    display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+
+      <div class="nav-logo">HealthAI</div>
+
+      <!-- Hamburger -->
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="/" data-path="/" class="active">Home</a></li>
+        <li><a href="/home" data-path="/home">Dashboard</a></li>
+        <li><a href="/features" data-path="/features">Features</a></li>
+        <li><a href="/predict" data-path="/predict">Predict</a></li>
+        <li><a href="/contact" data-path="/contact">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- LANDING CONTENT -->
+  <main class="landing-wrapper">
+
+    <section class="landing-hero">
+
+      <span class="landing-badge">
+        Educational · Explainable · Responsible
+      </span>
+
+      <h1 class="landing-title">HealthAI</h1>
+
+      <p class="landing-tagline">
+        An AI-powered disease prediction system designed to promote
+        early awareness through transparent and responsible machine learning.
+      </p>
+
+      <div class="landing-actions">
+        <a href="/home">
+          <button class="landing-btn">Enter Application
+          </button>
+        </a>
+      </div>
+
+      <p class="landing-disclaimer">
+        ⚠️ HealthAI is for educational purposes only and does not provide
+        medical diagnosis or treatment.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER (✅ now inside body) -->
+  <footer class="footer">
+    <div>© 2026 HealthAI</div>
+    <div>
+      <a href="/disclaimer">Medical Disclaimer</a>
+    </div>
+  </footer>
+
+</body>
+</html>

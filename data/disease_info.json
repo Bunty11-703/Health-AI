@@ -1,0 +1,675 @@
+[
+    {
+      "disease": "Fungal infection",
+      "prevention": [
+        "Be sure to practice good hygiene.",
+        "Don’t share clothing, towels, or other personal items.",
+        "Wear clean clothes every day, particularly socks and underwear.",
+        "Choose clothing and shoes that breathe well. Avoid clothing or shoes that are too tight or have a restrictive fit.",
+        "Make sure to dry off properly with a clean, dry, towel after showering, bathing, or swimming.",
+        "Wear sandals or flip-flops in locker rooms instead of walking with bare feet.",
+        "Wipe down shared surfaces, such as gym equipment or mats.",
+        "Stay away from animals that have signs of a fungal infection, such as missing fur or frequent scratching."
+      ],
+      "treatment": [
+        "Antifungal drugs are available as OTC treatments or prescription medications such as creams or ointments, pills, powders, sprays, shampoos",
+        "keeping the affected area clean and dry",
+        "wearing loose-fitting clothing or shoes that allow your skin to breathe"
+      ]
+    },
+    {
+      "disease": "Allergy",
+      "prevention": [
+        "Avoid your allergens",
+        "Take your medicines as prescribed.",
+        "If you are at risk for anaphylaxis, keep your epinephrine auto-injectors with you at all times.",
+        "Wear a medical alert bracelet (or necklace)."
+      ],
+      "treatment": [
+        "Medications",
+        "Allergy shots (subcutaneous immunotherapy)",
+        "Tablets (oral immunotherapy)",
+        "Changes to your household routine"
+      ]
+    },
+    {
+      "disease": "GERD",
+      "prevention": [
+        "Have small, frequent meals. Don't chow down on three large squares a day. Instead, eat five smaller meals that you spread throughout the day.",
+        "Avoid a large meal at dinnertime",
+        "Avoid trigger foods like: Chocolate, Citrus fruits and juices, Peppermint, Tomato products, Fried, fatty, or spicy foods, Garlic and onions",
+        "Cut back on alcohol, tea, coffee, and carbonated drinks.",
+        "Don't eat at least 2 to 3 hours before bedtime.",
+        "Prop up the head of your bed 6 to 10 inches."
+      ],
+      "treatment": [
+        "Lifestyle and dietary changes: Lose weight if you are overweight, Quit smoking etc",
+        "Medication: Antacids, Histamine blockers, Proton pump inhibitors, Prokinetic agents",
+        "Endoscopic therapy: Transoral incisionless fundoplication (TIF)",
+        "Surgery: To strengthen the anti-reflux barrier"
+      ]
+    },
+    {
+      "disease": "Chronic cholestasis",
+      "prevention": [
+        "You cannot prevent cholestasis of pregnancy. Genetic testing may help you understand the chance of passing this disorder on to your child."
+      ],
+      "treatment": [
+        "some antibiotics, such as amoxicillin (Amoxil, Moxatag) and minocycline (Minocin)",
+        "anabolic steroids",
+        "some nonsteroidal anti-inflammatories (NSAIDs), such as ibuprofen (Advil, Motrin IB)",
+        "oral contraceptives",
+        "certain antiepileptic drugs",
+        "certain antifungal drugs",
+        "some antipsychotic drugs",
+        "certain antimicrobial drugs"
+      ]
+    },
+    {
+      "disease": "Drug Reaction",
+      "prevention": [
+        "Patients themselves can play a significant role in the prevention of adverse drug reactions, in particular, ensuring a high level of compliance with medication instructions can maximise therapeutic effects and avoid or minimise the possible occurrence of potentially adverse reactions.",
+        "Patients should also reject the belief that there is a 'pill for every ill' and avoid indiscriminate self-medication and doctor hopping."
+      ],
+      "treatment": [
+        "An antihistamine to counteract the allergic reaction.",
+        "A nonsteroidal anti-inflammatory drug, such as ibuprofen or aspirin, or a corticosteroid to reduce inflammation."
+      ]
+    },
+    {
+      "disease": "Peptic ulcer disease",
+      "prevention": [
+        "Consider switching pain relievers, especially if you use pain relievers regularly.",
+        "Control stress.",
+        "Don't smoke.",
+        "Limit or avoid alcohol."
+      ],
+      "treatment": [
+        "Antibiotic medications to kill H. pylori.(found in digestive tract",
+        "Medications that block acid production and promote healing. ",
+        "Medications to reduce acid production.",
+        "Antacids that neutralize stomach acid.",
+        "Medications that protect the lining of your stomach and small intestine."
+      ]
+    },
+    {
+      "disease": "AIDS",
+      "prevention": [
+        "Keep your immune system strong",
+        "Reduce your chances of getting an infection",
+        "Reduce your chances of developing treatment-resistant HIV",
+        "Reduce your chances of transmitting HIV to other people"
+      ],
+      "treatment": [
+        "Currently, there's no cure for HIV/AIDS. Once you have the infection, your body can't get rid of it. However, there are many medications that can control HIV and prevent complications.",
+        "The classes of anti-HIV drugs include: \n Non-nucleoside reverse transcriptase inhibitors (NNRTIs) \n Nucleoside or nucleotide reverse transcriptase inhibitors (NRTIs) \n Protease inhibitors (PIs) \n Integrase inhibitors \n Entry or fusion inhibitors"
+      ]
+    },
+    {
+      "disease": "Diabetes",
+      "prevention": [
+        "Check your risk of diabetes.",
+        "Exercise regularly.",
+        "Eat a balanced, healthy diet.",
+        "Limit takeaway and processed foods.",
+        "Limit your alcohol intake.",
+        "Quit smoking.",
+        "Control your blood pressure.",
+        "Reduce your risk of cardiovascular disease.",
+        "See your doctor for regular check-ups."
+      ],
+      "treatment": [
+        "Type 1 diabetes is managed with insulin as well as dietary changes and exercise.",
+        "Type 2 diabetes may be managed with non-insulin medications, insulin, weight reduction, or dietary changes.",
+        "Medications for type 2 diabetes can work in different ways to reduce blood glucose levels. They may: \n increase insulin sensitivity, \n increase glucose excretion, \n decrease absorption of carbohydrates from the digestive tract, or \n work through other mechanisms.",
+        "Proper nutrition is a part of any diabetes care plan. There is no one specific 'diabetic diet' that is recommended for all individuals.",
+        "Pancreas transplantation is an area of active study for the treatment of diabetes."
+      ]
+    },
+    {
+      "disease": "Gastroenteritis",
+      "prevention": [
+        "Wash your hands often, especially after using the bathroom and before food preparation. If necessary, use hand sanitizer until you can access soap and water.",
+        "Don’t share kitchen utensils, plates, or towels if someone in your household is sick.",
+        "Don’t eat raw or undercooked foods.",
+        "Wash fruits and vegetables thoroughly.",
+        "Take special precautions to avoid contaminated water and food when traveling. Avoid ice cubes and use bottled water whenever possible.",
+        "Ask your doctor if you should have your infant vaccinated against rotavirus. There are two vaccines, and they’re generally started around 2 months old."
+      ],
+      "treatment": [
+        "plenty of fluids",
+        "oral rehydration drinks, available from your pharmacist",
+        "admission to hospital and intravenous fluid replacement, in severe cases",
+        "antibiotics, if bacteria are the cause",
+        "drugs to kill the parasites, if parasites are the cause",
+        "avoiding anti-vomiting or anti-diarrhoea drugs unless prescribed or recommended by your doctor, because these medications will keep the infection inside your body."
+      ]
+    },
+    {
+      "disease": "Bronchial Asthma",
+      "prevention": [
+        "Follow your asthma action plan.",
+        "Get vaccinated for influenza and pneumonia.",
+        "Identify and avoid asthma triggers.",
+        "Monitor your breathing.",
+        "Identify and treat attacks early.",
+        "Take your medication as prescribed.",
+        "Pay attention to increasing quick-relief inhaler use. "
+      ],
+      "treatment": [
+        "Short-acting bronchodilators, such as albuterol, to help open the airway to provide short-term relief.",
+        "Inhaled corticosteroids.",
+        "Long-acting bronchodilators used together with inhaled corticosteroids.",
+        "Leukotriene modifiers.",
+        "Cromolyn or theophylline."
+      ]
+    },
+    {
+      "disease": "Hypertension",
+      "prevention": [
+        "Eat a Healthy Diet. Choose healthy meal and snack options to help you avoid high blood pressure and its complications.",
+        "Keep Yourself at a Healthy Weight. Having overweight or obesity increases your risk for high blood pressure.",
+        "Be Physically Active.",
+        "Do Not Smoke.",
+        "Limit How Much Alcohol You Drink.",
+        "Get Enough Sleep."
+      ],
+      "treatment": [
+        "Eating a heart-healthy diet with less salt.",
+        "Getting regular physical activity.",
+        "Maintaining a healthy weight or losing weight if you're overweight or obese.",
+        "Limiting the amount of alcohol you drink",
+        "Medications: \n Thiazide diuretics. Diuretics, sometimes called water pills, are medications that act on your kidneys to help your body eliminate sodium and water, reducing blood volume. \n Angiotensin-converting enzyme (ACE) inhibitors help relax blood vessels by blocking the formation of a natural chemical that narrows blood vessels.\n Angiotensin II receptor blockers (ARBs) \n Calcium channel blockers. "
+      ]
+    },
+    {
+      "disease": "Migraine",
+      "prevention": [
+        "Sleep is a tricky trigger. Too much or too little of it can bring on a migraine.So, sleep smart.",
+        "Don't skip meals",
+        "Watch Caffeine",
+        "Don’t over- or underdo exercise",
+        "Don't dry out",
+        "Don't stare at screens",
+        "Don't ignore your environment",
+        "Do de-stress",
+        "Be wary of wine",
+        "Don't smoke",
+        "Treat your body like a temple"
+      ],
+      "treatment": [
+        "If you have a migraine, place a cold pack on your forehead.",
+        "If you have a tension headache, place a heating pad on your neck or the back of your head.",
+        "Ease Pressure on Your Scalp or Head",
+        "Dim the Lights",
+        "Try Not to Chew",
+        "Get Some Caffeine",
+        "Try Massage",
+        "Take Some Ginger",
+        "There is no cure for migraine, but many drugs can treat or even prevent some the headaches"
+      ]
+    },
+    {
+      "disease": "Cervical spondylosis",
+      "prevention": [
+        "Stay physically active.",
+        "Use good posture.",
+        "Prevent neck injuries by always using the right equipment and the right form when exercising or playing sports.",
+        "Avoid trauma to your neck."
+      ],
+      "treatment": [
+        "Nonsteroidal anti-inflammatory drugs: you may need prescription-strength versions to relieve the pain and inflammation associated with cervical spondylosis.",
+        "Corticosteroids:  A short course of oral prednisone might help ease pain. ",
+        "Muscle relaxants: Certain drugs, such as cyclobenzaprine, can help relieve muscle spasms in the neck.",
+        "Anti-seizure medications:  Some epilepsy medications, such as gabapentin (Neurontin, Horizant) and pregabalin (Lyrica), can dull the pain of damaged nerves.",
+        "Antidepressants: Certain antidepressant medications have been found to help ease neck pain from cervical spondylosis.",
+        "A physical therapist can teach you exercises to help stretch and strengthen the muscles in your neck and shoulders. ",
+        "The surgery might involve: \n Removing a herniated disk or bone spurs \n Removing part of a vertebra \n Fusing a segment of the neck using bone graft and hardware"
+      ]
+    },
+    {
+      "disease": "Paralysis (brain hemorrhage)",
+      "prevention": [
+        "It is important that people protect themselves against the risk of traumatic brain injury. Wearing seatbelts in cars or helmets when riding bikes or motorcycles are easy ways to protect the head and brain.",
+        "People who have a brain hemorrhage or a stroke have a 25% chance of another one in the future.",
+        "Making lifestyle changes can help an individual to reduce their risk or prevent a cerebrovascular event.",
+        "People with high blood pressure need to receive regular checkups and take steps to lower their blood pressure."
+      ],
+      "treatment": [
+        "Surgery may be necessary to treat a severe brain hemorrhage.",
+        "Rehabilitation treatment includes: \n physical therapy \n speech therapy \n occupational therapy \n lifestyle changes to limit the risk of another hemorrhage."
+      ]
+    },
+    {
+      "disease": "Jaundice",
+      "prevention": [
+        "Jaundice is related to liver function. It is essential that people maintain the health of this vital organ by eating a balanced diet, exercising regularly, and not consuming more than the recommended amounts of alcohol."
+      ],
+      "treatment": [
+        "Anemia-induced jaundice may be treated by boosting the amount of iron in the blood by either taking iron supplements or eating more iron-rich foods. Iron supplements are available for purchase online.",
+        "Hepatitis-induced jaundice requires antiviral or steroid medications.",
+        "Doctors can treat obstruction-induced jaundice by surgically removing the obstruction.",
+        "If the jaundice has been caused by use of a medication, treatment for involves changing to an alternative medication."
+      ]
+    },
+    {
+      "disease": "Malaria",
+      "prevention": [
+        "Bite prevention – avoid mosquito bites by using insect repellent, covering your arms and legs, and using a mosquito net. ",
+        "Check whether you need to take malaria prevention tablets – if you do, make sure you take the right antimalarial tablets at the right dose, and finish the course."
+      ],
+      "treatment": [
+        "Artemisinin-based combination therapies (ACTs)",
+        "Chloroquine phosphate.",
+        "Combination of atovaquone and proguanil (Malarone)",
+        "Quinine sulfate (Qualaquin) with doxycycline (Vibramycin, Monodox, others)",
+        "Mefloquine",
+        "Primaquine phosphate"
+      ]
+    },
+    {
+      "disease": "Chicken pox",
+      "prevention": [
+        "Chickenpox can be prevented through vaccination, which is recommended for: all children, adolescents, adults who aren’t already immune to chickenpox, Two doses of the vaccine are needed."
+      ],
+      "treatment": [
+        "Use Acetaminophen (Tylenol) for Pain",
+        "Don’t Scratch That Itch",
+        "Heat and sweat make you itch more. Use a cool, wet washcloth on super-itchy areas to calm your skin.",
+        "Stay Hydrated"
+      ]
+    },
+    {
+      "disease": "Dengue",
+      "prevention": [],
+      "treatment": [
+        "Rest as much as possible.",
+        "Take acetaminophen (also known as paracetamol outside of the United States) to control fever and relieve pain.",
+        "Do not take aspirin or ibuprofen!",
+        "Drink plenty of fluids to stay hydrated. Drink water or drinks with added electrolytes.",
+        "Severe dengue is a medical emergency. It requires immediate medical care at a clinic or hospital."
+      ]
+    },
+    {
+      "disease": "Typhoid",
+      "prevention": [
+        "Safe drinking water, improved sanitation and adequate medical care can help prevent and control typhoid fever",
+        "A vaccine is recommended if you live in or are traveling to areas where the risk of getting typhoid fever is high."
+      ],
+      "treatment": [
+        "Commonly prescribed antibiotics include: \n Ciprofloxacin (Cipro) \n Azithromycin (Zithromax) \n Ceftriaxone"
+      ]
+    },
+    {
+      "disease": "Hepatitis A",
+      "prevention": [
+        "To reduce your risk of spreading or catching the hepatitis A virus: \n  Always wash your hands thoroughly after using the restroom and when you come in contact with an infected person's blood, stools, or other bodily fluid. \n  Avoid unclean food and water.",
+        "If you were recently exposed to hepatitis A and have not had hepatitis A before, or have not received the hepatitis A vaccine series, ask your health care provider about receiving a hepatitis A immune globulin shot.",
+        "Vaccines are available to protect against hepatitis A infection. Hepatitis A vaccination is recommended for all children older than age 1."
+      ],
+      "treatment": [
+        "replenishing nutrition and fluids.",
+        "avoiding alcohol.",
+        "rest, with time off work.",
+        "taking over-the-counter (OTC) pain relievers if needed."
+      ]
+    },
+    {
+      "disease": "Hepatitis B",
+      "prevention": [
+        "Get the hepatitis B vaccine (if you haven’t already been infected). It’s key to prevention, and the CDC recommends it for all babies born in the U.S., all kids and teens younger than 19 who haven’t already gotten this vaccine, and at-risk people.",
+        "Use condoms every time you have sex.",
+        "Wear gloves when you clean up after others, especially if you have to touch bandages, tampons, and linens.",
+        "Cover all open cuts or wounds.",
+        "Don’t share razors, toothbrushes, nail care tools, or pierced earrings with anyone.",
+        "Don’t share chewing gum, and don’t pre-chew food for a baby.",
+        "Make certain that any needles for drugs, ear piercing, or tattoos -- or tools for manicures and pedicures -- are properly sterilized.",
+        "Clean up blood with one part household bleach and 10 parts water."
+      ],
+      "treatment": [
+        "If you think you’ve been exposed to the virus, get to a doctor as soon as possible. The earlier you get treatment, the better. They’ll give you a vaccine and a shot of hepatitis B immune globulin. This protein boosts your immune system and helps it fight off the infection.",
+        "If you do get sick, your doctor may put you on bed rest to help you get better faster.",
+        "You’ll have to give up things that can hurt your liver, like alcohol and acetaminophen. Check with your doctor before taking any other drugs, herbal treatments, or supplements. Some of them can harm this organ, too. Also, eat a healthy diet.",
+        "Medications to treat: \n Entecavir (Baraclude) \n Tenofovir (Viread) \n Adefovir dipivoxil (Hepsera) \n Interferon alfa (Intron A, Roferon A, Sylatron) \n Telbivudine (Tyzeka)"
+      ]
+    },
+    {
+      "disease": "Hepatitis C",
+      "prevention": [
+        "Avoid injecting drugs to reduce your risk. If you do inject drugs, use sterile injection equipment. Avoid reusing or sharing.",
+        "Avoid sharing personal care items that might have blood on them (razors, toothbrushes, nail clippers)",
+        "If you are a health care or public safety worker, follow universal blood/body fluid precautions and safely handle needles and other sharps",
+        "Consider the risks if you are thinking about tattooing, body piercing, or acupuncture – are the instruments properly sterilized?",
+        "If you’re having sex with more than one partner, use latex condoms correctly and every time to prevent the spread of sexually transmitted diseases, including hepatitis C."
+      ],
+      "treatment": [
+        "Treatment for chronic hepatitis C (those infected for 6 months or more) involves: \n tablets to fight the virus \n a test to see if your liver is damaged \n lifestyle changes to prevent further damage",
+        "DAA tablets are the safest and most effective medicines for treating hepatitis C.",
+        "The tablets are taken for 8 to 12 weeks. The length of treatment will depend on which type of hepatitis C you have."
+      ]
+    },
+    {
+      "disease": "Hepatitis D",
+      "prevention": [
+        "The only known way to prevent hepatitis D is to avoid infection with hepatitis B. ",
+        "Get vaccinated. There’s a vaccine for hepatitis B that all children should receive. Adults who are at high risk for infection, such as those who use intravenous drugs, should also be vaccinated. ",
+        "Use protection. Always practice safe sex by using a condom with all of your sexual partners. ",
+        "Avoid or stop using recreational drugs that can be injected, such as heroin or cocaine.",
+        "Be cautious about tattoos and piercings."
+      ],
+      "treatment": [
+        "There are no known treatments for acute or chronic hepatitis D.",
+        "You may be given large doses of a medication called interferon for up to 12 months. Interferon is a type of protein that may stop the virus from spreading and lead to remission from the disease. However, even after treatment, people with hepatitis D can still test positive for the virus. "
+      ]
+    },
+    {
+      "disease": "Hepatitis E",
+      "prevention": [
+        "Rest",
+        "Eat healthy foods",
+        "Drink lots of water",
+        "Avoid alcohol",
+        "Check with your doctor before you take any medicine that may damage your liver, such as acetaminophen.",
+        "If you’re pregnant, your doctor may keep you under watch in the hospital. If your condition is serious, you may get medicine to fight the infection."
+      ],
+      "treatment": [
+        "No vaccine can prevent the hepatitis E virus",
+        "You can lower your chances of getting the virus if you: \n Don’t drink water or use ice that you don’t know is clean. \n Don’t eat undercooked pork, deer meat, or raw shellfish."
+      ]
+    },
+    {
+      "disease": "Alcoholic hepatitis",
+      "prevention": [
+        "Drink alcohol in moderation, if at all. For healthy adults, moderate drinking means up to one drink a day for women of all ages and men older than 65, and up to two drinks a day for men age 65 and younger. The only certain way to prevent alcoholic hepatitis is to avoid all alcohol.",
+        "Protect yourself from hepatitis C. ",
+        "Check before mixing medications and alcohol."
+      ],
+      "treatment": [
+        "Stop drinking alcohol. This is the most critical part of the treatment. It may reverse the disease if your alcoholic hepatitis is mild. ",
+        "Change your diet. This may include eating low-sodium foods as well as taking diuretics and vitamin supplements.",
+        "Antibiotics . If you have alcoholic hepatitis, you’re more at risk for bacterial infections. Your doctor will watch for infections and treat it if one appears.",
+        "Steroids. Your doctor may recommend corticosteroid drugs to reduce liver swelling.",
+        "If those treatments don’t work because your disease is too advanced, you may need a liver transplant."
+      ]
+    },
+    {
+      "disease": "Tuberculosis",
+      "prevention": [
+        "good ventilation: as TB can remain suspended in the air for several hours with no ventilation.",
+        "natural light: UV light kills off TB bacteria.",
+        "good hygiene: covering the mouth and nose when coughing or sneezing reduces the spread of TB bacteria."
+      ],
+      "treatment": [
+        "The most common treatment for active TB is isoniazid INH in combination with three other drugs—rifampin, pyrazinamide and ethambutol."
+      ]
+    },
+    {
+      "disease": "Common Cold",
+      "prevention": [
+        "Wash your hands, especially before eating or preparing food.",
+        "Avoid touching your face. ",
+        "Clean frequently used surfaces. ",
+        "Use hand sanitizers when you can't wash your hands with soap and water.",
+        "Strengthen your immune system so your body is ready to fight off germs."
+      ],
+      "treatment": [
+        "Stay hydrated. Water, juice, clear broth or warm lemon water with honey helps loosen congestion and prevents dehydration. ",
+        "Rest. Your body needs rest to heal.",
+        "Soothe a sore throat.",
+        "Combat stuffiness. ",
+        "Relieve pain.",
+        "Sip warm liquids. ",
+        "Try honey. "
+      ]
+    },
+    {
+      "disease": "Pneumonia",
+      "prevention": [
+        "Wash your hands regularly, especially after you go to the bathroom and before you eat.",
+        "Eat right, with plenty of fruits and vegetables.",
+        "Exercise.",
+        "Get enough sleep.",
+        "Quit smoking.",
+        "Stay away from sick people, if possible."
+      ],
+      "treatment": [
+        "Control your fever with aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs, such as ibuprofen or naproxen), or acetaminophen. DO NOT give aspirin to children.",
+        "Drink plenty of fluids to help loosen secretions and bring up phlegm.",
+        "Do not take cough medicines without first talking to your doctor. Coughing is one way your body works to get rid of an infection. If your cough is preventing you from getting the rest you need, ask your doctor about steps you can take to get relief.",
+        "Drink warm beverages, take steamy baths and use a humidifier to help open your airways and ease your breathing. Contact your doctor right away if your breathing gets worse instead of better over time.",
+        "Stay away from smoke to let your lungs heal. This includes smoking, secondhand smoke and wood smoke. Talk to your doctor if you are a smoker and are having trouble staying smokefree while you recover. This would be a good time to think about quitting for good.",
+        "Get lots of rest. You may need to stay in bed for a while. Get as much help as you can with meal preparation and household chores until you are feeling stronger. It is important not to overdo daily activities until you are fully recovered."
+      ]
+    },
+    {
+      "disease": "Dimorphic hemorrhoids(piles)",
+      "prevention": [
+        "drink lots of fluid and eat plenty of fibre to keep your poo soft.",
+        "wipe your bottom with damp toilet paper.",
+        "take paracetamol if piles hurt.",
+        "take a warm bath to ease itching and pain.",
+        "use an ice pack wrapped in a towel to ease discomfort.",
+        "gently push a pile back inside.",
+        "keep your bottom clean and dry.",
+        "exercise regularly."
+      ],
+      "treatment": [
+        "Eat high-fiber foods. Eat more fruits, vegetables and whole grains.",
+        "Use topical treatments. Apply an over-the-counter hemorrhoid cream or suppository containing hydrocortisone, or use pads containing witch hazel or a numbing agent.",
+        "Soak regularly in a warm bath or sitz bath. ",
+        "Take oral pain relievers.",
+        "If your hemorrhoids produce only mild discomfort, your doctor might suggest over-the-counter creams, ointments, suppositories or pads.",
+        "Only a small percentage of people with hemorrhoids require surgery: \n Hemorrhoid removal (hemorrhoidectomy) \n Hemorrhoid stapling. "
+      ]
+    },
+    {
+      "disease": "Heart attack",
+      "prevention": [
+        "Stop smoking. ",
+        "Choose good nutrition. A healthy diet is one of the best weapons you have to fight cardiovascular disease.",
+        "High blood cholesterol. ",
+        "Lower high blood pressure. ",
+        "Be physically active every day.",
+        "Aim for a healthy weight. ",
+        "Manage diabetes. ",
+        "Reduce stress."
+      ],
+      "treatment": [
+        "Aspirin. The 911 operator might tell you to take aspirin, or emergency medical personnel might give you aspirin immediately.",
+        "Thrombolytics. ",
+        "Antiplatelet agents. ",
+        "Other blood-thinning medications.",
+        "Pain relievers.",
+        "Nitroglycerin. ",
+        "Beta blockers. ",
+        "ACE inhibitors."
+      ]
+    },
+    {
+      "disease": "Varicose veins",
+      "prevention": [
+        "Exercising.",
+        "Watching your weight.",
+        "Eating a high-fiber, low-salt diet.",
+        "Avoiding high heels and tight hosiery.",
+        "Elevating your legs.",
+        "Changing your sitting or standing position regularly."
+      ],
+      "treatment": [
+        "Sclerotherapy.",
+        "Foam sclerotherapy of large veins. ",
+        "Laser treatment. ",
+        "Catheter-assisted procedures using radiofrequency or laser energy. ",
+        "High ligation and vein stripping.",
+        "Ambulatory phlebectomy. ",
+        "Endoscopic vein surgery."
+      ]
+    },
+    {
+      "disease": "Hypothyroidism",
+      "prevention": [
+        "There is no way to prevent hypothyroidism, but people who may have a higher risk of thyroid problems, for example, women during pregnancy, should check with their doctor about the need for additional iodine."
+      ],
+      "treatment": [
+        "Standard treatment for hypothyroidism involves daily use of the synthetic thyroid hormone levothyroxine (Levo-T, Synthroid, others).",
+        "This oral medication restores adequate hormone levels, reversing the signs and symptoms of hypothyroidism. You'll likely start to feel better soon after you start treatment."
+      ]
+    },
+    {
+      "disease": "Hyperthyroidism",
+      "prevention": [
+        "In most cases, hyperthyroidism cannot be prevented. It can be passed through a family (Graves' disease) or appear when there's an increase in the amount of thyroid hormone produced by your body (during or after pregnancy)."
+      ],
+      "treatment": [
+        "Radioactive iodine. Taken by mouth, radioactive iodine is absorbed by your thyroid gland, where it causes the gland to shrink.",
+        "Anti-thyroid medications.",
+        "Beta blockers.",
+        "Surgery (thyroidectomy)."
+      ]
+    },
+    {
+      "disease": "Hypoglycemia",
+      "prevention": [
+        "Monitor your blood sugar. ",
+        "Don't skip or delay meals or snacks. ",
+        "Measure medication carefully, and take it on time. ",
+        "Adjust your medication or eat additional snacks if you increase your physical activity.",
+        "Eat a meal or snack with alcohol, if you choose to drink."
+      ],
+      "treatment": [
+        "Eat or drink 15 to 20 grams of fast-acting carbohydrates. These are sugary foods without protein or fat that are easily converted to sugar in the body.",
+        "Try glucose tablets or gel, fruit juice, regular — not diet — soft drinks, honey, and sugary candy.",
+        "IV dextrose is the best treatment for inpatients and for patients found by emergency medical services personnel."
+      ]
+    },
+    {
+      "disease": "Osteoarthritis",
+      "prevention": [
+        "Keep a healthy body weight. Extra weight puts stress on your joints.",
+        "Control your blood sugar. High blood sugar levels raise your risk of getting OA. ",
+        "Be active every day.",
+        "Prevent injury to your joints.",
+        "Pay attention to pain."
+      ],
+      "treatment": [
+        "Acetaminophen. Acetaminophen (Tylenol, others) has been shown to help some people with osteoarthritis who have mild to moderate pain.",
+        "Nonsteroidal anti-inflammatory drugs (NSAIDs). ",
+        "Duloxetine (Cymbalta)."
+      ]
+    },
+    {
+      "disease": "Arthritis",
+      "prevention": [
+        "Stay at a healthy weight. Extra pounds put pressure on weight-bearing joints like hips and knees.",
+        "Control your blood sugar. ",
+        "Exercise.",
+        "Stretch. ",
+        "Avoid injury.",
+        "Quit smoking.",
+        "Eat fish twice a week. ",
+        "Get routine preventive care. "
+      ],
+      "treatment": [
+        "medications: Analgesics, Counterirritants, Non-steroidal anti-inflammatory drugs (NSAIDs), Disease-modifying antirheumatic drugs (DMARDs), Corticosteroids ",
+        "non-pharmacologic therapies",
+        "physical or occupational therapy",
+        "splints or joint assistive aids",
+        "patient education and support",
+        "weight loss",
+        "surgery, including joint replacement"
+      ]
+    },
+    {
+      "disease": "(vertigo) Paroymsal Positional Vertigo",
+      "prevention": [
+        "Use two or more pillows at night.",
+        "Avoid sleeping on your side with the ear that's causing the problem facing down."
+      ],
+      "treatment": [
+        "Do not drive or cycle if there is any chance that vertigo could strike and make you lose control. (This depends on what kind of movement triggers vertigo for you.)",
+        "At home, keep floors and walkways free of clutter so you don't trip.",
+        "Avoid heights.",
+        "Don't use tools or machines that could be dangerous if you suddenly get dizzy or lose your balance."
+      ]
+    },
+    {
+      "disease": "Acne",
+      "prevention": [
+        "Properly wash your face. To help prevent pimples, it's important to remove excess oil, dirt, and sweat daily. ",
+        "Know your skin type. Anyone can get pimples, no matter their skin type. ",
+        "Moisturize skin.",
+        "Use over-the-counter acne treatments. ",
+        "Stay hydrated. ",
+        "Limit makeup. ",
+        "Don't touch your face. ",
+        "Limit sun exposure."
+      ],
+      "treatment": [
+        "Soap and water. ",
+        "Cleansers",
+        "Benzoyl peroxide",
+        "Salicylic acid",
+        "Sulfur",
+        "Topical retinol gel or creams",
+        "Alcohol and acetone",
+        "Herbal, organic, and 'natural' medications"
+      ]
+    },
+    {
+      "disease": "Urinary tract infection",
+      "prevention": [
+        "Drink plenty of liquids, especially water.",
+        "Drink cranberry juice. ",
+        "Wipe from front to back. ",
+        "Empty your bladder soon after intercourse. ",
+        "Avoid potentially irritating feminine products. ",
+        "Change your birth control method."
+      ],
+      "treatment": [
+        "Trimethoprim/sulfamethoxazole (Bactrim, Septra, others)",
+        "Fosfomycin (Monurol)",
+        "Nitrofurantoin (Macrodantin, Macrobid)",
+        "Cephalexin (Keflex)",
+        "Ceftriaxone"
+      ]
+    },
+    {
+      "disease": "Psoriasis",
+      "prevention": [
+        "Use Moisturizing Lotions. ",
+        "Take Care of Your Skin and Scalp. ",
+        "Avoid Dry, Cold Weather. ",
+        "Use a Humidifier. ",
+        "Avoid Medications That Cause Flare-Ups.",
+        "Avoid Scrapes, Cuts, Bumps, and Infections.",
+        "Get Some Sun, But Not Too Much. ",
+        "Zap Stress."
+      ],
+      "treatment": [
+        "Corticosteroids. These drugs are the most frequently prescribed medications for treating mild to moderate psoriasis. ",
+        "Vitamin D analogues.",
+        "Retinoids. ",
+        "Calcineurin inhibitors. ",
+        "Salicylic acid. ",
+        "Coal tar.",
+        "Goeckerman therapy.",
+        "Anthralin."
+      ]
+    },
+    {
+      "disease": "Impetigo",
+      "prevention": [
+        "Keep hands clean.  Use alcohol-based sanitizer if you don’t have soap and water.",
+        "Practice good hygiene: Clip your (and your child’s) fingernails regularly to avoid scratching. Sneeze into a tissue and then throw the tissue away. Bathe daily (or as often as possible), especially for children with eczema or sensitive skin.",
+        "Avoid scratching: Don’t scratch cuts or wounds. If your child gets a cut, scratch or wound, keep them from scratching it.",
+        "Clean wounds: Clean cuts, scrapes and injuries with soap and water. Then put an antibiotic cream or ointment on the wound",
+        "Keep linens clean: Wash underwear, towels and sheets in hot water."
+      ],
+      "treatment": [
+        "If you have impetigo in only a small area of your skin, topical antibiotics are the preferred treatment. Options include mupirocin cream or ointment (Bactroban or Centany) and retapamulin ointment (Altabax).",
+        "If your impetigo is severe or widespread, your doctor can prescribe oral antibiotics such as amoxicillin/clavulanate (Augmentin), certain cephalosporins, or clindamycin (Cleocin).",
+        "Oral antibiotics can also cause more side effects than topical antibiotics, such as nausea.",
+        "With treatment, impetigo usually heals in 7 to 10 days. If you have an underlying infection or skin disease, the infection may take longer to heal."
+      ]
+    }
+  ]

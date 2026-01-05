@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Precautions & Medicines – HealthAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@500;600;700&
+    family=PT+Sans:wght@400;700&
+    family=Smooch+Sans:wght@400;600;700&
+    family=Tagesschrift&
+    display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">HealthAI</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/home">Dashboard</a></li>
+      <li><a href="/features">Features</a></li>
+      <li><a href="/predict">Predict</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ================= MAIN ================= -->
+<main class="container page" style="padding-top:120px">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb">
+    <a href="/home">Home</a>
+    <span>›</span>
+    <a href="/predict">Predict</a>
+    <span>›</span>
+    <a href="/result">Result</a>
+    <span>›</span>
+    <span class="current">Guidance</span>
+  </nav>
+
+  <div class="card guidance-card">
+
+    <h2>🛡️ Precautions & Medicines</h2>
+
+    <p class="guidance-intro" id="diseaseIntro">
+      Based on the predicted condition, the following precautions and medicines
+      are suggested for educational awareness.
+      <br>
+      <strong>Always consult a healthcare professional.</strong>
+    </p>
+
+    <!-- Precautions -->
+    <div class="guidance-section">
+      <h3>✅ Recommended Precautions</h3>
+      <ul class="guidance-list" id="precautionList"></ul>
+    </div>
+
+    <!-- Medicines -->
+    <div class="guidance-section">
+      <h3>💊 Commonly Suggested Medicines</h3>
+      <ul class="guidance-list" id="medicineList"></ul>
+    </div>
+
+    <!-- Warning -->
+    <div class="guidance-warning">
+      ⚠️ <strong>Medical Disclaimer:</strong>
+      This content is educational only and must not replace professional
+      medical advice.
+    </div>
+
+    <!-- Back -->
+    <div class="result-actions" style="margin-top:30px">
+      <a href="/result">
+        <button class="secondary-btn">← Back to Result</button>
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div>© 2026 HealthAI</div>
+  <div><a href="/disclaimer">Medical Disclaimer</a></div>
+</footer>
+
+<script>
+/* 📦 Load prediction data */
+const result = JSON.parse(localStorage.getItem("lastResult"));
+
+const precautionList = document.getElementById("precautionList");
+const medicineList = document.getElementById("medicineList");
+const intro = document.getElementById("diseaseIntro");
+
+if (!result || !result.prevention || !result.treatment) {
+  precautionList.innerHTML = "<li>No guidance data available.</li>";
+  medicineList.innerHTML = "<li>No medicine data available.</li>";
+} else {
+  intro.innerHTML = `
+    Based on the predicted condition
+    <strong>${result.disease}</strong>,
+    the following precautions and medicines are suggested.
+    <br><strong>Consult a doctor before acting.</strong>
+  `;
+
+  result.prevention.forEach(p => {
+    precautionList.innerHTML += `<li>🟢 ${p}</li>`;
+  });
+
+  result.treatment.forEach(m => {
+    medicineList.innerHTML += `<li>💊 ${m}</li>`;
+  });
+}
+
+/* ⌨️ Keyboard navigation */
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") window.location.href = "/result";
+});
+</script>
+
+</body>
+</html>

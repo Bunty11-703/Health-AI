@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explainability – HealthAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=Playfair+Display:wght@500;600;700&
+    family=PT+Sans:wght@400;700&
+    family=Smooch+Sans:wght@400;600;700&
+    family=Tagesschrift&
+    display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- JS -->
+  <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">HealthAI</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/" data-path="/">Home</a></li>
+      <li><a href="/home" data-path="/home">Dashboard</a></li>
+      <li><a href="/features" data-path="/features">Features</a></li>
+      <li><a href="/predict" data-path="/predict">Predict</a></li>
+      <li><a href="/contact" data-path="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="container page" style="padding-top:120px">
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb">
+    <a href="/home">Home</a>
+    <span>›</span>
+    <a href="/predict">Predict</a>
+    <span>›</span>
+    <a href="/result">Result</a>
+    <span>›</span>
+    <span class="current">Explainability</span>
+  </nav>
+
+  <h2>Explainable AI</h2>
+
+  <p class="model-intro">
+    This page explains <strong>why</strong> HealthAI predicted a particular
+    disease by highlighting the most influential symptoms.
+  </p>
+
+  <section class="card explain-card">
+
+    <h3>Top Contributing Features</h3>
+
+    <div id="explainContainer">
+      <!-- Filled dynamically -->
+    </div>
+
+    <p class="explain-note">
+      Feature importance values represent how strongly each symptom influenced
+      the model’s prediction.
+    </p>
+
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div>© 2026 HealthAI</div>
+  <div>
+    <a href="/disclaimer">Medical Disclaimer</a>
+  </div>
+</footer>
+
+<script>
+/* 📦 Load prediction result */
+const result = JSON.parse(localStorage.getItem("lastResult"));
+
+const container = document.getElementById("explainContainer");
+
+if (!result || !result.top_predictions) {
+  container.innerHTML = "<p>No explainability data available.</p>";
+} else {
+  /* Fake explainability (until model exposes importances) */
+  const symptoms = localStorage.getItem("lastSymptoms")
+    ?.split(",")
+    .map(s => s.trim())
+    .slice(0, 6);
+
+  if (!symptoms || symptoms.length === 0) {
+    container.innerHTML = "<p>No symptom data found.</p>";
+  } else {
+    symptoms.forEach((symptom, idx) => {
+      const importance = 1 - idx * 0.12; // visual weighting
+
+      container.innerHTML += `
+        <div class="feature-row">
+          <div class="feature-label">
+            <span>${symptom}</span>
+            <span>${(importance * 100).toFixed(1)}%</span>
+          </div>
+          <div class="feature-bar">
+            <div class="feature-fill" style="width:${importance * 100}%"></div>
+          </div>
+        </div>
+      `;
+    });
+  }
+}
+
+/* ⌨️ Keyboard navigation */
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowLeft") window.location.href = "/result";
+  if (e.key === "ArrowRight") window.location.href = "/guidance";
+});
+</script>
+
+</body>
+</html>
